@@ -2,16 +2,13 @@
 
 ## Sprint planning
 
-
 <!-- Ontwerp en maak voor een opdrachtgever een component/pagina/site toegankelijk volgens WCAG richtlijnen. -->
 
+Aankomende sprint plannen mbv projectboard
+Sprint review afspreken en bedenken wat je daat laten zien
+Feedback verwerken van de Sprint Review uit sprint 2 en taken inplannen
 
-
-Aankomende sprint plannen en projectboard, sprint review afspreken en bedenkn wat je daat laten zien
-Taken van sprint 2 inplannen
-Feedback sprint review sprint 2 verwerken
-
-
+Opnieuw beginnen met code. Gebruik alles wst je hebt geleerd bv over html elemten, layout modes, media queries en code conventies om je websit opnieuw te coderen. Hoe lang doe je daarvover? Plannen in projectboard. 
 
 
 
@@ -23,17 +20,9 @@ Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
 
 
+### Aanpak
 
-
-
-Deze opdracht gaat over alle fases van de **development-lifecycle** [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), integreren en testen.
-
-
-
-
-### Analyseren
-
-In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren en formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen.
+In de analysefase inventariseer je wat ehttps://github.com/fdnd-task/all-human-accessible-website/blob/main/docs/sprint-planning.mdr moet gebeuren om een taak uit te voeren en formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen.
 
 De vorige sprint heb je individueel of in een team een opdracht voor een opdrachtgever ontworpen en gemaakt. Na 3 weken heb je tijdens de sprint-review je opdracht laten zien en feedback gekregen. Deze sprint ga je verder met de opdracht, ga je de feedback verwerken of, als de opdracht goed was, kies je een nieuwe user story om aan te werken. 
 
@@ -60,16 +49,12 @@ Eerst ga je met de studenten die dezelfde opdrachtgever hebben de [sprint-review
 4. Voer een aantal handmatige tests uit op de website uit de vorige sprint, documenteer de gevonden problemen en maak issues aan.
 
 
-## Ontwerpen
-
 In de ontwerpfase neem je ontwerpbeslissingen en zorg je dat je precies weet wat je moet gaan bouwen.
 
 1. Verwerk de feedback en testresultaten in een nieuw ontwerp.
 2. Maak schetsen zodat je niet vergeet wat je wil veranderen, of pas je vorige ontwerp aan in Figma of XD.
 3. Maak eerst een kopie van je ontwerp en bewaar de vorige versie. Schrijf annotaties (korte uitleg) bij de wijzigingen in je ontwerp. 
 
-
-### Bouwen
 
 In de bouwfase realiseer je de beslissingen uit de ontwerpfase in HTML, CSS en JS.
 
