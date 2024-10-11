@@ -16,7 +16,7 @@ Deze leertaak wordt behandeld in sprint 3. Er worden verschillende workshops aan
 
 - [Sprint planning](sprint-planning.md)
 - [User Experience van HTML](user-experience-van-html.md)
-- [Code/Design review toegankelijkheid](code-design-review-toegenakelijkheid)
+- [Code/Design review toegankelijkheid](code-design-review-toegankelijkheid.md)
 - [Kleur en Contract](kleur-contrast.md)
 - [Sprint-review](sprint-review.md)
 
