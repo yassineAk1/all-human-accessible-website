@@ -12,7 +12,11 @@ Je leert hoe je een (gedeelte van een) website toegankelijk kan ontwerpen, bouwe
 
 
 ## Werkwijze
-Deze leertaak wordt behandeld in sprint 3. Er worden verschillende workshops aangeboden:
+Deze leertaak wordt behandeld in sprint 3. 
+
+Bij FDND begin je elke sprint met nieuwe HTML, CSS (en JS) code. Als je in dezelfde code doorwerkt wordt het vaak een beetje een zootje en pas je niet toe wat je in de tussentijd hebt geleerd. Begin dus altijd met nieuwe code schrijven.
+
+Er worden verschillende workshops aangeboden:
 
 - [Sprint planning](sprint-planning.md)
 - [User Experience van HTML](user-experience-van-html.md)
