@@ -12,7 +12,6 @@ Taken van sprint 2 inplannen.
 Feedback sprint review sprint 2 verwerken -->
 
 ### Aanpak
-
 De vorige sprint heb je een opdracht voor een opdrachtgever ontworpen en gemaakt. Na 3 weken heb je tijdens de sprint-review je opdracht laten zien en feedback gekregen. Deze sprint ga je verder met de opdracht en ga je de feedback verwerken.
 
 Eerst ga je met de studenten die dezelfde opdrachtgever hebben de [sprint-review bespreken](#1-sprint-review-bespreken), daarna ga je de [opdracht van sprint 3 plannen](#2-sprint-3-plannen). 
