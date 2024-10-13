@@ -1,9 +1,10 @@
 # All Human - Accessible Website
+
 Ontwerp en maak voor een opdrachtgever een component/pagina/site toegankelijk volgens WCAG richtlijnen.
 
 
 ## Context
-Deze leertaak hoort bij sprint 3: All Human. 
+Deze leertaak hoort bij Sprint 3: All Human. 
 Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
 
@@ -12,9 +13,9 @@ Je leert hoe je een (gedeelte van een) website toegankelijk kan ontwerpen, bouwe
 
 
 ## Werkwijze
-Deze leertaak wordt behandeld in sprint 3. 
+Deze leertaak wordt behandeld in Sprint 3. 
 
-Bij FDND begin je elke sprint met nieuwe HTML, CSS (en JS) code. Als je in dezelfde code doorwerkt wordt het vaak een beetje een zootje en pas je niet toe wat je in de tussentijd hebt geleerd. Begin dus altijd met nieuwe code schrijven.
+Bij FDND begin je elke sprint met nieuwe HTML, CSS (en JS) code. Als je in dezelfde code doorwerkt, wordt het vaak een beetje een zooitje en pas je niet toe wat je in de tussentijd hebt geleerd. Begin dus altijd met nieuwe code schrijven.
 
 Er worden verschillende workshops aangeboden:
 
@@ -22,7 +23,7 @@ Er worden verschillende workshops aangeboden:
 - [User Experience van HTML](user-experience-van-html.md)
 - [Code/Design review toegankelijkheid](code-design-review-toegankelijkheid.md)
 - [Kleur en Contract](kleur-contrast.md)
-- [Sprint-review](sprint-review.md)
+- [Sprint Review](sprint-review.md)
 
 
 ## Definition of done
@@ -32,4 +33,4 @@ Deze opdracht is done als:
 - [ ] Je hebt gestructureerd gewerkt met behulp van de development-lifecycle en je hebt het proces bijgehouden in jouw Learning Log
 - [ ] Je hebt een Lighthouse test gedaan en gevonden problemen verholpen
 - [ ] Je hebt een serie handmatige tests gedaan en gevonden problemen verholpen
-- [ ] Je hebt feedback gekregen van de opdrachtgever tijdens de Sprint review en de feedback gedocumenteerd
+- [ ] Je hebt feedback gekregen van de opdrachtgever tijdens de Sprint Review en de feedback gedocumenteerd
