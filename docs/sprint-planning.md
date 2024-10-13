@@ -3,16 +3,16 @@
 ## Sprint planning
 <!-- Ontwerp en maak voor een opdrachtgever een website toegankelijk volgens WCAG richtlijnen. -->
 
-De Sprint planning vindt plaats aan het begin van elke sprint. Je begint een project altijd met een Sprint planning, dan weet je wat de planning is, wat we de komende weken gaan doen en wat er van je wordt verwacht. Het doel van een Sprint planning is om te bepalen wat er de komende sprint aan werk opgepakt kan worden.
+Je begint een project altijd met een Sprint planning, dan weet je wat je de komende weken gaat doen en wat er van je wordt verwacht.
 
-Bij FDND werk je 4 sprints aan dezelfde opdracht van een opdrachtgever. In de Sprint planning van Sprint 3 ga je de feedback van de SPrint Review verwerken en de komende spritn plannen.
+Bij FDND werk je 4 sprints voor dezelfde opdrachtgever. In de Sprint planning van Sprint 3 ga je de feedback van de sprint-review verwerken en de komende sprint plannen.
 
 <!-- Aankomende sprint plannen en projectboard, sprint review afspreken en bedeken wat je wil gaan laten zien. 
 Taken van sprint 2 inplannen.
 Feedback sprint review sprint 2 verwerken -->
 
 ### Aanpak
-De vorige sprint heb je een opdracht voor een opdrachtgever ontworpen en gemaakt. Na 3 weken heb je tijdens de sprint-review je opdracht laten zien en feedback gekregen. Deze sprint ga je verder met de opdracht en ga je de feedback verwerken.
+De vorige sprint heb je een website voor een opdrachtgever ontworpen en gemaakt. Na 3 weken heb je tijdens de sprint-review je opdracht laten zien en feedback gekregen. Deze sprint ga je verder met de opdracht en ga je de feedback verwerken.
 
 Eerst ga je met de studenten die dezelfde opdrachtgever hebben de [sprint-review bespreken](#1-sprint-review-bespreken), daarna ga je de [opdracht van sprint 3 plannen](#2-sprint-3-plannen). 
 
