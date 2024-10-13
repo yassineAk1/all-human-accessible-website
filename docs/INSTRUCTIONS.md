@@ -9,7 +9,7 @@ Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
 ## Doel van deze opdracht
 
-Je leert hoe je een (gedeelte van een) website toegankelijk kan ontwerpen, bouwen en testen.
+Je leert hoe je een website toegankelijk kan ontwerpen, bouwen en testen.
 
 ## Werkwijze
 Deze leertaak wordt behandeld in sprint 3. Er worden verschillende workshops aangeboden:
