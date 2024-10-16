@@ -26,7 +26,7 @@ Beantwoord onderstaande vragen op het whiteboard:
 
 - Onderzoek met je tafel welke functionaliteiten _verschillende browsers_ je geven bij zo'n link. Gebruik je rechtermuisknop, doe een _long tap_ op je telefoon, gebruik de Shift-, Control-, Command-, Option- en Alt-toetsen (of een combinatie van die toetsen) bij het klikken op die link.
 
-- Voeg het `download` attribuut toe, en onderzoek wat er met de functionaliteit in de browser verandert.
+- Voeg het `download` attribuut toe, en onderzoek wat er met de functionaliteit in de browser verandert. (Dit attribuut werkt niet in elke browser lokaal, in Firefox bijvoorbeeld wel.)
 
 - Verander het `download` attribuut naar `target="_blank"`, en onderzoek wat er met de functionaliteit in de browser verandert, als je op de link klikt.
 
