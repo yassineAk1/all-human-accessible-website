@@ -176,9 +176,9 @@ Door je content een goede heading structuur te geven, zorg je dat bijvoorbeeld _
 
 Soms wil je een deel van de informatie op een pagina verbergen en pas later tonen. Misschien maak je wel een lijst met Veelgestelde vragen, maar wil je dat er steeds maar één vraag openstaat.
 
-Zoek op het Internet—of vraag ChatGPT—hoe je een accordeon kunt maken met HTML, CSS en JS. Je gaat verschillende tutorials en meningen vinden. Schrijf met je tafel wat verschillende manieren op het whiteboard, en of deze een elegante UX opleveren. Test bijvoorbeeld met je toetsenbord hoe ze te bedienen zijn.
+- Zoek op het Internet—of vraag ChatGPT—hoe je een accordeon kunt maken met HTML, CSS en JS. Je gaat verschillende tutorials en meningen vinden. Schrijf met je tafel wat verschillende manieren op het whiteboard, en of deze een elegante UX opleveren. Test bijvoorbeeld met je toetsenbord hoe ze te bedienen zijn.
 
-In HTML kun je het `<details>` element gebruiken voor dit soort _widgets_. Kopieer het volgende en onderzoek wat het je voor UX geeft:
+- In HTML kun je het `<details>` element gebruiken voor dit soort _widgets_. Kopieer onderstaande code naar je HTML document en onderzoek wat het je voor UX geeft:
 
 ```html
 <details>
@@ -188,7 +188,7 @@ In HTML kun je het `<details>` element gebruiken voor dit soort _widgets_. Kopie
 </details>
 ```
 
-HTML biedt je ook iets voor accordeons, waarbij slechts één element openstaat. Experimenteer met onderstaande code, en onderzoek hoe de UX is, door je toetsenbord te gebruiken.
+- HTML biedt je ook iets voor accordeons, waarbij slechts één element openstaat. Experimenteer met onderstaande code, en onderzoek hoe de UX is, door je toetsenbord te gebruiken.
 
 ```html
 <details name="faq">
