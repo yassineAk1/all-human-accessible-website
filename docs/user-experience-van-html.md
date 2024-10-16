@@ -98,7 +98,7 @@ Maak een nieuwe subkop aan, `<h2>Labels voor invoervelden</h2>`, plak de volgene
 
 De UX is verschrikkelijk. Lighthouse klaagt er ook over. WCAG audit niet gehaald. Helaas.
 
-Wat nou als je om elke `<input>` én elke docent een `<label>...</label>` zet? (💡 Pro-tip: zoek uit hoe _multi-cursor editing_ in je editor werkt, want daar ga je veel plezier van hebben.) Test je wijzigingen.
+Wat nou als je elke `<input>` én elke docent samen in één `<label>...</label>` zet? (💡 Pro-tip: zoek uit hoe _multi-cursor editing_ in je editor werkt, want daar ga je veel plezier van hebben.) Test je wijzigingen.
 
 Een paar vliegen in één klap: je hebt de UX voor _alle_ gebruikers verbeterd, Lighthouse klaagt wat minder, en die WCAG checklist is zo ook wel te doen. Leer jezelf aan om bij elke `<input>` een `<label>` te koppelen. Niet alleen bij checkboxjes, maar bij _alle_ invoervelden.
 
