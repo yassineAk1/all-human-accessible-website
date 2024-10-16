@@ -74,7 +74,7 @@ Nu weet je waarom je altijd na moet denken over de inhoud van je `alt` attribute
 
 Bij het maken van formulieren, voor bijvoorbeeld filters of zoekvelden, kun je verschillende invoervelden gebruiken. Denk aan een lijst met checkboxes of radios. Voor formulieren hangt een goede UX onder andere af van goede labels.
 
-Maak een nieuwe subkop aan, `<h2>Labels voor invoervelden</h2>`, plak de volgene HTML eronder, en test het in je browser door verschillende docenten aan te klikken.
+Maak een nieuwe subkop aan, `<h2>Labels voor invoervelden</h2>`, plak de volgende HTML eronder, en test het in je browser door verschillende docenten aan te klikken.
 
 ```html
 <fieldset>
@@ -94,13 +94,17 @@ Maak een nieuwe subkop aan, `<h2>Labels voor invoervelden</h2>`, plak de volgene
 </fieldset>
 ```
 
-De UX is verschrikkelijk. Lighthouse klaagt er ook over. WCAG audit niet gehaald. Helaas.
+De UX van deze HTML verschrikkelijk. Lighthouse klaagt er ook over. WCAG audit niet gehaald ... Helaas ...
 
-Wat nou als je elke `<input>` én elke docent samen in één `<label>...</label>` zet? (💡 Pro-tip: zoek uit hoe _multi-cursor editing_ in je editor werkt, want daar ga je veel plezier van hebben.) Test je wijzigingen.
+#### Beantwoord onderstaande vragen op het whiteboard:
+
+- Doe een Lighthouse test op de HTML met input en labels. Welke melding krijg je van de test?
+
+- Wat nou als je elke `<input>` én elke docent samen in één `<label>` zet? Dat ziet er zo uit: `<label><input type="checkbox">Naam</label>`. Test de wijzigingen, welke UX vinden jullie beter?.
 
 Een paar vliegen in één klap: je hebt de UX voor _alle_ gebruikers verbeterd, Lighthouse klaagt wat minder, en die WCAG checklist is zo ook wel te doen. Leer jezelf aan om bij elke `<input>` een `<label>` te koppelen. Niet alleen bij checkboxjes, maar bij _alle_ invoervelden.
 
-Test dit maar in je browser:
+- Zonder labels is het voor _iedereen_ ontoegankelijk en onbruikbaar, omdat je geen idee hebt wat je waar moet invullen. Voeg onderstaande code toe aan je HTML document en test het in je browser, werkt dit goed? Weet een gebruiker wat die moet invullen?
 
 ```html
 <fieldset>
@@ -112,9 +116,7 @@ Test dit maar in je browser:
 </fieldset>
 ```
 
-Zonder labels is het voor _iedereen_ ontoegankelijk en onbruikbaar, omdat je geen idee hebt wat je waar moet invullen.
-
-Plak het volgende voorbeeld onder je code, zodat je het kunt vergelijken.
+- Plak het volgende voorbeeld onder je code, zodat je het kunt vergelijken. Wat is het verschil tussen de twee voorbeelden?
 
 ```html
 <fieldset>
@@ -126,9 +128,7 @@ Plak het volgende voorbeeld onder je code, zodat je het kunt vergelijken.
 </fieldset>
 ```
 
-Als we wél de tekstuele labels toevoegen, maar _niet_ de `<label>` elementen, blijft het voor een deel van je eindgebruikers ontoegankelijk en onbruikbaar. En HTML schrijf je voor _iedereen_.
-
-Je wilt het dus als volgt doen. Plak dit onder je code, zodat je beide versies kunt vergelijken.
+- Als we wél de tekstuele labels toevoegen, maar _niet_ de `<label>` elementen, blijft het voor een deel van je eindgebruikers ontoegankelijk en onbruikbaar. En HTML schrijf je voor _iedereen_. Plak dit onder je code, zodat je beide versies kunt vergelijken. Test de verschillen, welke UX vinden jullie beter?.
 
 ```html
 <fieldset>
@@ -140,7 +140,7 @@ Je wilt het dus als volgt doen. Plak dit onder je code, zodat je beide versies k
 </fieldset>
 ```
 
-Bijkomend voordeel is dat je nu ook op het label kunt klikken, en dat je met CSS meer kunt doen. Omdat je een goed HTML fundament hebt geschreven. Plak deze HTML/CSS onderaan in je `ux.html` om het te testen.
+- Een bijkomend voordeel is dat je nu ook op het label kunt klikken, en dat je met CSS meer kunt doen. Omdat je een goed HTML fundament hebt geschreven. Plak deze HTML/CSS onderaan in je `ux.html` om het te testen.
 
 ```html
 <style>
@@ -150,7 +150,7 @@ input:hover, input:focus {
 </style>
 ```
 
-Stel dat een invoerveld verplicht is, wat zou je dan doen? Bespreek met je tafel hoe je dit voor meerdere eindgebruikers, browsers en apparaten kunt doen, en schrijf wat hints op het whiteboard.
+- Stel dat een invoerveld verplicht is, wat zou je dan doen? Bespreek met je tafel hoe je dit voor meerdere eindgebruikers, browsers en apparaten kunt doen, en schrijf wat hints op het whiteboard.
 
 #### Bronnen
 
