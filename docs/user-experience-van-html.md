@@ -2,25 +2,39 @@
 
 ## User Experience van HTML
 
+Je hebt maandag gezien dat Mensen (waar deze sprint om draait) veel verschillende browsers en apparaten gebruiken. Al die browsers kunnen overweg met HTML, de standaard waar het hele Web op draait.
+
 Als frontender heb je de verantwoordelijkheid om een goede gebruikerservaring voor eindgebruikers neer te zetten. Goede HTML helpt bij die goede _User Experience (UX)_. En slechte HTML zorgt voor een slechte gebruikerservaring. Dat klinkt logisch, maar het Internet (en ook ChatGPT) staat vol met voorbeelden van slechte HTML.
+
+
+### Aanpak
 
 Voordat je kunt bepalen wat goede HTML is, moet je vooral leren wat HTML zoal kan. En welke functionaliteiten je van de browser gratis krijgt, als je de juiste HTML elementen schrijft.
 
-Je hebt maandag gezien dat Mensen (waar deze sprint om draait) veel verschillende browsers en apparaten gebruiken. Al die browsers kunnen overweg met HTML, de standaard waar het hele Web op draait.
+Vandaag ga je lezen en leren wat verschillende (interactieve) HTML elementen in een browser doen: links, afbeeldingen, labels, details en headings. Studenten die al wat verder zijn, kunnen ook experimenteren met popups.
+
+Open je code editor en schrijf je favoriete HTML element op het whiteboard, zodat we kunnen beginnen.
+
 
 ### Links
 
-De allereerste browser ooit, zo'n 30 jaar geleden, kon al met links (`<a href="...">`) overweg. Sindsdien is er alleen maar leuk spul bijgekomen in HTML.
+De allereerste browser ooit, zo'n 30 jaar geleden, kon al met links (_anchors_, `<a href="...">`) overweg. Sindsdien is er alleen maar leuk spul bijgekomen in HTML.
 
 Maak een blanco HTML pagina in je editor, noem deze `ux.html` en sla deze op op je Bureaublad. Begin met een `<h1>UX in HTML</h1>` en maak een eerste subkop, `<h2>Links</h2>`. Schrijf daaronder een simpele `<a href="ux.html">UX in HTML<a>` link (naar zichzelf dus), en open de pagina in een willekeurige browser.
 
-Onderzoek met je tafel welke functionaliteiten _verschillende browsers_ je geven bij zo'n link. Gebruik je rechtermuisknop, doe een _long tap_ op je telefoon, gebruik de Shift-, Control-, Command-, Option-, Alt- of een combinatie van die toetsen bij het klikken op die link.
+Beantwoord onderstaande vragen op het whiteboard:
 
-Voeg het `download` attribuut toe, en onderzoek wat er met de functionaliteit in de browser verandert.
+- Onderzoek met je tafel welke functionaliteiten _verschillende browsers_ je geven bij zo'n link. Gebruik je rechtermuisknop, doe een _long tap_ op je telefoon, gebruik de Shift-, Control-, Command-, Option- en Alt-toetsen (of een combinatie van die toetsen) bij het klikken op die link.
 
-Verander het `download` attribuut naar `target="_blank"`, en onderzoek wat er met de functionaliteit in de browser verandert, als je op de link klikt.
+- Voeg het `download` attribuut toe, en onderzoek wat er met de functionaliteit in de browser verandert.
 
-Voeg meerdere links toe aan je HTML, en probeer met alleen je toetsenbord de links te bereiken en te volgen. Wat is de standaard tabvolgorde?
+- Verander het `download` attribuut naar `target="_blank"`, en onderzoek wat er met de functionaliteit in de browser verandert, als je op de link klikt.
+
+- Voeg ook een `<button>Knop</button>` toe aan je HTML. Krijg je hiermee dezelfde functionaliteit van de browser?
+
+- Voeg meerdere `<a href="...">` links toe aan je HTML, en probeer met alleen je toetsenbord de links te bereiken en te volgen. Wat is de standaard tabvolgorde?
+
+- Je kunt met een `<a href="#deel-2">` ook linken naar verschillende onderdelen binnen dezelfde pagina (bijvoorbeeld `<section id="deel-2">`). Met `:target` kun je daar in CSS wat mee doen.
 
 Met zoiets simpels als een link kun je al alle kanten op. <!-- Hrhr --> Wil je de eindgebruiker dus de mogelijkheid geven om ergens _heen_ te gaan, gebruik dan een `<a>` (_anchor_). En dus geen `<button>`, want daarbij krijg je niet die functionaliteit van een browser.
 
@@ -30,6 +44,7 @@ Met zoiets simpels als een link kun je al alle kanten op. <!-- Hrhr --> Wil je d
 - [Het `href` attribuut](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#href)
 - [Het `download` attribuut](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#download)
 - [Het `target` attribuut](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#target)
+- [De `:target` selector in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/:target)
 
 
 ### Afbeeldingen
@@ -40,11 +55,13 @@ Voeg in jouw `ux.html` de volgende subkop toe, `<h2>Afbeeldingen</h2>`. We hebbe
 
 De afbeelding kan nog niet gedownload worden, dus de browser tekent hier ook geen pixels.
 
-Voeg `alt="UX in HTML"` toe aan de `<img>` tag, en bekijk het in je browser. Welke UX vind je beter als de afbeelding niet getoond kan worden?
+Beantwoord onderstaande vragen op het whiteboard:
 
-We gaan nu tekst én een icoon toevoegen aan onze link, ook al hebben we de afbeelding voor het icoontje nog niet. En we hebben net geleerd dat een `alt` attribuut “beter” is voor de UX, dus die zetten we er ook meteen in. We willen immers het juiste doen. Gebruik de volgende HTML: `<a href="ux.html"><img alt="UX in HTML">UX in HTML</a>`, en bekijk het in je browser. Hm, is dit nou echt beter? Wat als je van dat `alt` attribuut `alt="Icoon"`, of `alt="Download icoon"` maakt? En wat als je gewoon `alt=""` doet in dit geval? Welke UX vind jij beter?
+- Voeg `alt="UX in HTML"` toe aan de `<img>` tag, en bekijk het in je browser. Welke UX vinden jullie beter als de afbeelding niet getoond kan worden?
 
-Onderzoek en bespreek met je tafel op welke verschillende manieren je afbeeldingen kunt gebruiken, en wat voor soort `alt` attribuut daarbij hoort.
+- We gaan nu tekst én een icoon toevoegen aan onze link, ook al hebben we de afbeelding voor het icoontje nog niet. En we hebben net geleerd dat een `alt` attribuut “beter” is voor de UX, dus die zetten we er ook meteen in. We willen immers het juiste doen. Gebruik de volgende HTML: `<a href="ux.html"><img alt="UX in HTML">UX in HTML</a>`, en bekijk het in je browser. Hm, is dit nou echt beter? Wat als je van dat `alt` attribuut `alt="Icoon"`, of `alt="Download icoon"` maakt? En wat als je gewoon `alt=""` doet in dit geval? Welke UX vinden jullie beter?
+
+- Onderzoek en bespreek met je tafel op welke verschillende manieren je afbeeldingen kunt gebruiken, en wat voor soort `alt` attributen daarbij horen. Schrijf alle manieren op het whiteboard.
 
 Nu weet je waarom je altijd na moet denken over de inhoud van je `alt` attributen, en waarom dat bijvoorbeeld in Lighthouse en de WCAG richtlijnen langskomt. De context van een afbeelding is relevant bij het schrijven van een `alt` attribuut.
 
@@ -129,23 +146,54 @@ Bijkomend voordeel is dat je nu ook op het label kunt klikken, en dat je met CSS
 
 ```html
 <style>
-input:hover {
+input:hover, input:focus {
   outline: 2px solid blue;
 }
 </style>
 ```
 
-(💡 Pro-tip: voeg `contenteditable style="display:block;white-space:pre;font-family:monospace;border:1px solid;padding:1em;"` toe aan het `<style>` element, en bewerk de CSS live in je browser!)
+Stel dat een invoerveld verplicht is, wat zou je dan doen? Bespreek met je tafel hoe je dit voor meerdere eindgebruikers, browsers en apparaten kunt doen, en schrijf wat hints op het whiteboard.
 
 #### Bronnen
 
 - [`<label>`: The Label element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
 - [`<fieldset>`: The Field Set element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset)
 - [Pro-tip: Multiple selections (multi-cursor) @ VS Code](https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor)
-- [Geavanceerd: Het `contenteditable` attribuut](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable)
+- [De `:required` selector in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/:required)
 
 
-### Details
+### Meer informatie en accordeons (_progressive disclosure_)
+
+Soms wil je een deel van de informatie op een pagina verbergen en pas later tonen. Misschien maak je wel een lijst met Veelgestelde vragen, maar wil je dat er steeds maar één vraag openstaat.
+
+Zoek op het Internet—of vraag ChatGPT—hoe je een accordeon kunt maken met HTML, CSS en JS. Je gaat verschillende tutorials en meningen vinden. Schrijf met je tafel wat verschillende manieren op het whiteboard, en of deze een elegante UX opleveren. Test bijvoorbeeld met je toetsenbord hoe ze te bedienen zijn.
+
+In HTML kun je het `<details>` element gebruiken voor dit soort _widgets_. Kopieer het volgende en onderzoek wat het je voor UX geeft:
+
+```html
+<details>
+  <summary>Meer info</summary>
+  <p>Deze informatie krijg je pas later te zien.</p>
+  <p>Kan handig zijn.</p>
+</details>
+```
+
+HTML biedt je ook iets voor accordeons, waarbij slechts één element openstaat. Experimenteer met onderstaande code, en onderzoek hoe de UX is, door je toetsenbord te gebruiken.
+
+```html
+<details name="faq">
+  <summary>Moet ik al kunnen coderen?</summary>
+  <p>Nee, je hebt helemaal geen voorkennis nodig om te beginnen aan deze opleiding, we kunnen je alles leren! Als je wel al voorkennis hebt, is dat alleen maar goed, dan kunnen we je helpen je skills te verbeteren en te verdiepen in de stof.</p>
+</details>
+<details name="faq">
+  <summary>Wat is frontend development?</summary>
+  <p>Een frontend developer ontwerpt en bouwt websites in HTML, CSS en JavaScript. Deze frontend talen leer je bij ons, je hebt dus geen voorkennis nodig.</p>
+</details>
+<details name="faq">
+  <summary>Hoe werkt deze frontend developer opleiding?</summary>
+  <p>Je richt je tijdens deze tweejarige studie op webdesign, visual interface design en frontend development. Vanaf het begin van de opleiding werk je aan actuele opdrachten van échte opdrachtgevers, en leer je samenwerken in multidisciplinaire teams.</p>
+</details>
+```
 
 #### Bronnen
 
@@ -154,20 +202,59 @@ input:hover {
 - [Het `name` attribuut](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details#name)
 
 
-### Dialog & popover
+### Geavanceerd: Popups
+
+Zoek op het Internet hoe je een popup kunt maken met HTML, CSS en JS. Je gaat ook hier weer verschillende oplossingen vinden. Schrijf met je tafel per manier een steekwoord op het whiteboard.
+
+Test of je de voorbeelden die je gevonden hebt ook kunt bedienen met alleen het toetsenbord. Oftewel: hoe is de UX van deze oplossingen? Schrijf of ze met het toetsenbord te bedienen zijn ook op het whiteboard.
+
+Waarschijnlijk vond je iets over `<div>`jes, verschillende `class`es, JavaScript gebruiken, `classList`, `style.display = 'block'`, `style.display = 'none'`, `<button>`s, `focus`, `inert`, focus trap, etc. Het Web staat er vol mee. Hoe weet je nou wat goed is?
+
+<details>
+  <summary>Wat goed is</summary>
+
+HTML biedt ook hier iets voor. Voeg de subkop `<h2>Popups</h2>` toe aan je HTML, en daarna het volgende:
+
+```html
+<button popovertarget="popup">Open iets</button>
+
+<dialog popover id="popup">
+  <p>Dit staat in een popup/overlay/popover.</p>
+  <p>Leuk he.</p>
+  <button popovertarget="popup" popovertargetaction="hide">Sluit dit ding weer</button>
+</dialog>
+```
+
+Merk op dat dit volledig met het toetsenbord te bedienen is, zonder dat je extra werk hoeft te doen. De `Escape` toets werkt, buiten de popup klikken werkt, de focus wordt automatisch goed gezet. Dankjewel HTML.
+
+En, wat ook prettig is, dit werkt goed samen met CSS. Voeg dit bijvoorbeeld toe, en test wat het doet.
+
+```html
+<style>
+dialog::backdrop {
+  background: rgb(0 0 0 / 50%);
+}
+</style>
+```
+
+</details>
 
 #### Bronnen
 
 - [`<dialog>`: The Dialog element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
+- [Het `open` attribuut](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog#open)
 - [Het `popover` attribuut](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/popover)
+- [De `::backdrop` selector in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop)
+- Wat geavanceerder: [de `showModal()` method in JS](https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement/showModal), voor als je je popup _modal_ wilt maken
 
 
 ### Headings
 
-En door je content een goede heading structuur te geven, zorg je dat bijvoorbeeld Inhoudsopgaves automatisch gemaakt kunnen worden. Sommige browsers bieden deze functionaliteit.
+En door je content een goede heading structuur te geven, zorg je dat bijvoorbeeld _Inhoudsopgaves_ automatisch gemaakt kunnen worden. Sommige browsers en tools bieden deze functionaliteit aan eindgebruikers.
 
-Onderzoek met je tafel hoe je de screen reader die je geïnstalleerd hebt de heading structuur van je UX pagina kunt laten voorlezen.
+Onderzoek met je tafel hoe je de heading structuur van je UX pagina kunt laten zien of voorlezen door een tool. Gebruik hiervoor bijvoorbeeld de screen reader die je geïnstalleerd hebt, zoek een browser extensie die een “table of contents” kan weergeven, of installeer een browser zoals Polypane.
 
 #### Bronnen
 
 - [`<h1>`–`<h6>`: The HTML Section Heading elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
+- [Gebruik de tools binnen Polypane om de toegankelijkheid en bruikbaarheid te testen](https://polypane.app/) (gratis voor studenten, via de [GitHub Student Developer Pack](https://polypane.app/github-students/))
