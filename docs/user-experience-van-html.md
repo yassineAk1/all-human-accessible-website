@@ -53,7 +53,7 @@ Voeg in jouw `ux.html` de volgende subkop toe, `<h2>Afbeeldingen</h2>`. We hebbe
 
 De afbeelding kan nog niet gedownload worden, dus de browser tekent hier ook geen pixels.
 
-Beantwoord onderstaande vragen op het whiteboard:
+#### Beantwoord onderstaande vragen op het whiteboard:
 
 - Voeg `alt="UX in HTML"` toe aan de `<img>` tag, en bekijk het in je browser. Welke UX vinden jullie beter als de afbeelding niet getoond kan worden?
 
