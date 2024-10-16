@@ -6,21 +6,21 @@ Je hebt maandag gezien dat Mensen (waar deze sprint om draait) veel verschillend
 
 Als frontender heb je de verantwoordelijkheid om een goede gebruikerservaring voor eindgebruikers neer te zetten. Goede HTML helpt bij die goede _User Experience (UX)_. En slechte HTML zorgt voor een slechte gebruikerservaring. Dat klinkt logisch, maar het Internet (en ook ChatGPT) staat vol met voorbeelden van slechte HTML.
 
-
 ### Aanpak
 
 Voordat je kunt bepalen wat goede HTML is, moet je vooral leren wat HTML zoal kan. En welke functionaliteiten je van de browser gratis krijgt, als je de juiste HTML elementen schrijft.
 
-Vandaag ga je lezen en leren wat verschillende (interactieve) HTML elementen in een browser doen: links, afbeeldingen, labels, details en headings. Studenten die al wat verder zijn, kunnen ook experimenteren met popups.
+Vandaag ga je lezen en leren wat verschillende (interactieve) HTML elementen in een browser doen: links, afbeeldingen, labels, headings en details. Studenten die al wat verder zijn, kunnen ook experimenteren met popups.
 
-Open je code editor en schrijf je favoriete HTML element op het whiteboard, zodat we kunnen beginnen.
+Open je code editor en maak een blanco HTML pagina in je editor, noem deze `ux.html` en sla deze op in de repo van de leertaak. Begin met een `<h1>UX in HTML</h1>` en een paragraaf met daarin je favoriete HTML element. Schrijf dit ook op het whiteboard, zodat we kunnen beginnen.
 
 
 ### Links
 
 De allereerste browser ooit, zo'n 30 jaar geleden, kon al met links (_anchors_, `<a href="...">`) overweg. Sindsdien is er alleen maar leuk spul bijgekomen in HTML.
 
-Maak een blanco HTML pagina in je editor, noem deze `ux.html` en sla deze op op je Bureaublad. Begin met een `<h1>UX in HTML</h1>` en maak een eerste subkop, `<h2>Links</h2>`. Schrijf daaronder een simpele `<a href="ux.html">UX in HTML<a>` link (naar zichzelf dus), en open de pagina in een willekeurige browser.
+Maak een eerste subkop in je HTML document, `<h2>Links</h2>`. Schrijf daaronder een simpele `<a href="ux.html">UX in HTML<a>` link (naar zichzelf dus), en open de pagina in een willekeurige browser.
+
 
 Beantwoord onderstaande vragen op het whiteboard:
 
@@ -45,7 +45,6 @@ Met zoiets simpels als een link kun je al alle kanten op. <!-- Hrhr --> Wil je d
 - [Het `download` attribuut](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#download)
 - [Het `target` attribuut](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#target)
 - [De `:target` selector in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/:target)
-
 
 ### Afbeeldingen
 
@@ -162,6 +161,18 @@ Stel dat een invoerveld verplicht is, wat zou je dan doen? Bespreek met je tafel
 - [De `:required` selector in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/:required)
 
 
+### Headings
+
+En door je content een goede heading structuur te geven, zorg je dat bijvoorbeeld _Inhoudsopgaves_ automatisch gemaakt kunnen worden. Sommige browsers en tools bieden deze functionaliteit aan eindgebruikers.
+
+Onderzoek met je tafel hoe je de heading structuur van je UX pagina kunt laten zien of voorlezen door een tool. Gebruik hiervoor bijvoorbeeld de screen reader die je geïnstalleerd hebt, zoek een browser extensie die een “table of contents” kan weergeven, of installeer een browser zoals Polypane.
+
+#### Bronnen
+
+- [`<h1>`–`<h6>`: The HTML Section Heading elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
+- [Gebruik de tools binnen Polypane om de toegankelijkheid en bruikbaarheid te testen](https://polypane.app/) (gratis voor studenten, via de [GitHub Student Developer Pack](https://polypane.app/github-students/))
+
+
 ### Meer informatie en accordeons (_progressive disclosure_)
 
 Soms wil je een deel van de informatie op een pagina verbergen en pas later tonen. Misschien maak je wel een lijst met Veelgestelde vragen, maar wil je dat er steeds maar één vraag openstaat.
@@ -248,13 +259,3 @@ dialog::backdrop {
 - Wat geavanceerder: [de `showModal()` method in JS](https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement/showModal), voor als je je popup _modal_ wilt maken
 
 
-### Headings
-
-En door je content een goede heading structuur te geven, zorg je dat bijvoorbeeld _Inhoudsopgaves_ automatisch gemaakt kunnen worden. Sommige browsers en tools bieden deze functionaliteit aan eindgebruikers.
-
-Onderzoek met je tafel hoe je de heading structuur van je UX pagina kunt laten zien of voorlezen door een tool. Gebruik hiervoor bijvoorbeeld de screen reader die je geïnstalleerd hebt, zoek een browser extensie die een “table of contents” kan weergeven, of installeer een browser zoals Polypane.
-
-#### Bronnen
-
-- [`<h1>`–`<h6>`: The HTML Section Heading elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
-- [Gebruik de tools binnen Polypane om de toegankelijkheid en bruikbaarheid te testen](https://polypane.app/) (gratis voor studenten, via de [GitHub Student Developer Pack](https://polypane.app/github-students/))
