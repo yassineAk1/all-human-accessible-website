@@ -12,17 +12,16 @@ Voordat je kunt bepalen wat goede HTML is, moet je vooral leren wat HTML zoal ka
 
 Vandaag ga je lezen en leren wat verschillende (interactieve) HTML elementen in een browser doen: links, afbeeldingen, labels, headings en details. Studenten die al wat verder zijn, kunnen ook experimenteren met popups.
 
-Open je code editor en maak een blanco HTML pagina in je editor, noem deze `ux.html` en sla deze op in de repo van de leertaak. Begin met een `<h1>UX in HTML</h1>` en een paragraaf met daarin je favoriete HTML element. Schrijf dit ook op het whiteboard, zodat we kunnen beginnen.
+Open je code editor en maak een blanco HTML pagina in je editor, noem deze `ux.html` en sla deze op in de repo van je leertaak. Begin met een `<h1>UX in HTML</h1>` en een paragraf met daarin je favoriete HTML element `<p>Mijn favoriete HTML element is ...</p>`. Schrijf dit ook op het whiteboard, zodat we kunnen beginnen.
 
 
 ### Links
 
 De allereerste browser ooit, zo'n 30 jaar geleden, kon al met links (_anchors_, `<a href="...">`) overweg. Sindsdien is er alleen maar leuk spul bijgekomen in HTML.
 
-Maak een eerste subkop in je HTML document, `<h2>Links</h2>`. Schrijf daaronder een simpele `<a href="ux.html">UX in HTML<a>` link (naar zichzelf dus), en open de pagina in een willekeurige browser.
+Maak een eerste subkop in je HTML document, `<h2>Links</h2>`. Schrijf daaronder een simpele link (naar zichzelf) `<a href="ux.html">UX in HTML<a>` en open de pagina in een willekeurige browser.
 
-
-Beantwoord onderstaande vragen op het whiteboard:
+#### Beantwoord onderstaande vragen op het whiteboard:
 
 - Onderzoek met je tafel welke functionaliteiten _verschillende browsers_ je geven bij zo'n link. Gebruik je rechtermuisknop, doe een _long tap_ op je telefoon, gebruik de Shift-, Control-, Command-, Option- en Alt-toetsen (of een combinatie van die toetsen) bij het klikken op die link.
 
@@ -34,7 +33,7 @@ Beantwoord onderstaande vragen op het whiteboard:
 
 - Voeg meerdere `<a href="...">` links toe aan je HTML, en probeer met alleen je toetsenbord de links te bereiken en te volgen. Wat is de standaard tabvolgorde?
 
-- Je kunt met een `<a href="#deel-2">` ook linken naar verschillende onderdelen binnen dezelfde pagina (bijvoorbeeld `<section id="deel-2">`). Met `:target` kun je daar in CSS wat mee doen.
+- Je kunt met een `<a href="#deel-2">` ook linken naar verschillende onderdelen binnen dezelfde pagina door naar een `id` te verwijzen, bijvoorbeeld `<section id="deel-2">`. Met de pseudo-selector`:target` kun je daar in CSS wat mee doen.
 
 Met zoiets simpels als een link kun je al alle kanten op. <!-- Hrhr --> Wil je de eindgebruiker dus de mogelijkheid geven om ergens _heen_ te gaan, gebruik dan een `<a>` (_anchor_). En dus geen `<button>`, want daarbij krijg je niet die functionaliteit van een browser.
 
