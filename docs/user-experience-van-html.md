@@ -164,6 +164,8 @@ input:hover, input:focus {
 
 Door je content een goede heading structuur te geven, zorg je dat bijvoorbeeld _Inhoudsopgaves_ automatisch gemaakt kunnen worden. Sommige browsers en tools bieden deze functionaliteit aan eindgebruikers.
 
+#### Beantwoord onderstaande vragen op het whiteboard:
+
 - Onderzoek met je tafel hoe je de heading structuur van je UX pagina kunt laten zien of voorlezen door een tool. Gebruik hiervoor bijvoorbeeld de screen reader die je geïnstalleerd hebt, zoek een browser extensie die een “table of contents” kan weergeven, of installeer een browser zoals Polypane.
 
 #### Bronnen
@@ -175,6 +177,8 @@ Door je content een goede heading structuur te geven, zorg je dat bijvoorbeeld _
 ### Meer informatie en accordeons (_progressive disclosure_)
 
 Soms wil je een deel van de informatie op een pagina verbergen en pas later tonen. Misschien maak je wel een lijst met Veelgestelde vragen, maar wil je dat er steeds maar één vraag openstaat.
+
+#### Beantwoord onderstaande vragen op het whiteboard:
 
 - Zoek op het Internet—of vraag ChatGPT—hoe je een accordeon kunt maken met HTML, CSS en JS. Je gaat verschillende tutorials en meningen vinden. Schrijf met je tafel wat verschillende manieren op het whiteboard, en of deze een elegante UX opleveren. Test bijvoorbeeld met je toetsenbord hoe ze te bedienen zijn.
 
