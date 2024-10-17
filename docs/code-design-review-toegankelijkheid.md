@@ -18,7 +18,6 @@ Checklist code-review:
 - [ ] Bekijk of `<input>` wordt gebruikt. Controleer of de labels correct zijn gekoppeld aan de invoervelden. Beantwoord de volgende vragen: Heeft elk inputveld een gekoppeld `<label>` element? Kun je op het label klikken om het invoerveld te selecteren? 
 links, afbeeldingen, labels, headings en details. Studenten die al wat verder zijn, kunnen ook experimenteren met popups.
 - [ ] Laat de heading structuur van de homepagina voorlezen door een tool. Je kan hiervoor een screenreader gebruiken of een browser extensie. Controleer of de heading levels correct zijn gebruikt. Is er een logische volgorde van de heading levels (`<h1>`, `<h2>`, `<h3>`, etc.)? Is er maar één `<h1>` op de pagina? Volgen de headings elkaar logisch op (bijvoorbeeld geen overslaan van `<h2>` naar `<h4>`)?
-- [ ]
 - [ ] Test of de HTML goed is door een HTML validator check te doen op de W3C website: https://validator.w3.org. Schrijf een issue als er in de test problemen naar voren zijn gekomen. 
 - [ ] Bekijk alle HTML. Let met name op de Content sectioning, zijn de juiste elementen gebruikt voor de content van de pagina zoals een `<main>`, `<header>`, `<footer>`, `<h1>`-`<h6>`? Maak zo nodig hier een issue voor aan.
 <br/>
@@ -27,8 +26,9 @@ links, afbeeldingen, labels, headings en details. Studenten die al wat verder zi
 - Vorm een duo binnen jouw mentorgroep en kies twee andere duo's uit om de code van te gaan reviewen. Samen bespreek je de code en schiet je issues in. Dit betekent dus dat je samen feedback geeft op vier verschillende klasgenoten. 
 
 #### Design review (vanaf 11:30)
-- Pak het ontwerp in schets-vorm of Figma erbij. 
-- Bepaal waar jij feedback op wil. Haal feedback op bij minimaal 2 mentoren.  
+- Pak het ontwerp in schets-vorm of Figma erbij. En de live link van je website.
+- Noteer waar in jouw ontwerp je graag feedback op wil ontvangen.
+- Ga langs bij minimaal 2 mentoren om feedback te verzamelen. Maak van de feedback issues aan in jouw repo. 
 
 #### Bronnen
 
