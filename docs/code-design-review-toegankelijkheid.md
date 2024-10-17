@@ -6,7 +6,7 @@ Daarnaast hebben we gekeken naar hoe je een goede User Experience (UX) neerzet a
 
 ### Aanpak
 
-#### Code review toegankelijkheid
+#### 1. Code review toegankelijkheid
 - Push je laatste werk van de repository all-human-accessible-website naar GitHub, publiceer je site via GitHub Pages en plaats een link bij je repo. Zorg ook dat je issues aanstaan.
 - Lees onderstaande checklist om de code review straks uit te voeren:
 
@@ -25,7 +25,8 @@ links, afbeeldingen, labels, headings en details. Studenten die al wat verder zi
 - Bepaal samen met jullie mentor welke criteria nog toegevoegd kunnen worden aan de code review. Noteer minimaal vijf criteria voor de code review op het whiteboard. Tip: gebruik hiervoor de deeltaak wcag-audit.
 - Vorm een duo binnen jouw mentorgroep en kies twee andere duo's uit om de code van te gaan reviewen. Samen bespreek je de code en schiet je issues in. Dit betekent dus dat je samen feedback geeft op vier verschillende klasgenoten. 
 
-#### Design review (vanaf 11:30)
+<br/>
+#### 2. Design review (vanaf 11:30)
 - Pak het ontwerp in schets-vorm of Figma erbij. En de live link van je website.
 - Noteer waar in jouw ontwerp je graag feedback op wil ontvangen.
 - Ga langs bij minimaal 2 mentoren om feedback te verzamelen. Maak van de feedback issues aan in jouw repo. 
