@@ -22,7 +22,7 @@ Checklist code-review:
 <br/>
 
 - Bepaal samen met jullie mentor welke criteria nog toegevoegd kunnen worden aan de code review. Noteer minimaal vijf criteria voor de code review op het whiteboard. Tip: gebruik hiervoor de deeltaak [wcag-audit](https://github.com/fdnd-task/wcag-audit/blob/main/docs/INSTRUCTIONS.md).
-- Vorm een duo binnen jouw mentorgroep en kies twee andere duo’s waarvan jullie de code gaan reviewen. Samen bespreken jullie de code en schieten jullie issues in. Jullie geven als duo dus feedback op het werk van vier verschillende klasgenoten.
+- Vorm een duo binnen jouw groep en kies twee andere duo’s waarvan jullie de code gaan reviewen. Samen bespreken jullie de code en schieten jullie issues in. Jullie geven als duo dus feedback op het werk van vier verschillende klasgenoten.
 
 <br/>
 
