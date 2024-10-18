@@ -27,7 +27,8 @@ Checklist code-review:
 <br/>
 
 #### 2. Design review (vanaf 11:30)
-- Pak het ontwerp (schetsen of Figma) en de live link erbij van je website.
+- Als het goed is heb jij een iteratie gemaakt op het ontwerp van de opdrachtgever. Dit kan een geheel nieuw ontwerp zijn, een kleine aanpassing op het bestaande ontwerp of een uitbreiding van het ontwerp op een ander device (je hebt bijvoorbeeld een desktop versie ontworpen). 
+- Pak jouw iteratie op het bestaande ontwerp (schetsen of Figma) en de live link erbij van je website.
 - Noteer waar in jouw ontwerp je graag feedback op wil ontvangen.
 - Ga langs bij minimaal 2 mentoren om feedback te verzamelen. Maak van de feedback issues aan in jouw repo all-human-accessible-website. 
 
