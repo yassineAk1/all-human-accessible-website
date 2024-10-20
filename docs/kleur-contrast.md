@@ -2,7 +2,7 @@
 
 ## Kleur en Contrast
 
-In deze workshop leer je hoe je goede kleurcontrasten kan ontwerpen en hoe je kleurcontrasten kunt testen voor een goede toegankelijkheid.
+In deze workshop leer je hoe je goede kleurcontrasten kan ontwerpen en testen voor een goede toegankelijkheid.
 
 ### Omgevingsfactoren en beperkingen
 
@@ -15,7 +15,7 @@ Naast de omgevingsfactoren kan het natuurlijk ook voorkomen dat je gebruikers kl
 ![](inclusive-microsoft-design-toolkit.png)
 *Gebruikers kunnen permanente, tijdelijke of situationele beperkingen ondervinden - [microsoft.com/design/inclusive](https://www.microsoft.com/design/inclusive/)*
 
-Door rekening te houden met kleuren en contrast kun je ervoor zorgen dat alle mensen de informatie op je website goed kunnen lezen en zien. Je gaat 4 opdrachten uitvoeren om te leren hoe je goede kleurcontrasten kan ontwepren en testen:
+Door rekening te houden met kleuren en contrast kun je ervoor zorgen dat alle mensen de informatie op je website goed kunnen lezen en zien. In deze workshop ga je 4 opdrachten uitvoeren om te leren hoe je goede kleurcontrasten kan ontwerpen en testen:
 
 ## Gebruik naast kleuren altijd alternatieve informatie
 
@@ -54,9 +54,7 @@ De rode en groene kleur aan de linkerkant hebben vergelijkbare helderheid (*ligh
 
 ![](contrast-complementary.gif)
 
-Effectieve kleurcontrasten zijn complementaire kleuren. Dat zijn de kleuren die tegenover elkaar staat op de kleurencirkel. 
-
-Het is belangrijk om te onthouden dat het complementair contrast met rode en groene kleuren problemen opleveren voor de meeste kleurenblinden.
+Effectieve kleurcontrasten zijn complementaire kleuren. Dat zijn de kleuren die tegenover elkaar staat op de kleurencirkel. Het is belangrijk om te onthouden dat het complementair contrast met rode en groene kleuren problemen opleveren voor de meeste kleurenblinden.
 
 ### Warm-koud kleurcontrast
 
@@ -66,7 +64,7 @@ Stel je een kleurencirkel voor die is verdeeld in koude kleuren zoals blauw, paa
 
 ### Opdracht 
 
-Bekijk het kleurgebruik in het Figma ontwerp van je opdracht. Vergelijk de gebruikte teksten en kleuren met de kleurencirkel en noteer in het Figma document of het een licht-donker kleurcontrast, complementaire kleurcontrast en/of warm-koud kleurcontrast is. 
+Bekijk het kleurgebruik in het Figma ontwerp. Vergelijk de gebruikte teksten en kleuren met de kleurencirkel en noteer in het Figma document of het een licht-donker kleurcontrast, complementair kleurcontrast en/of warm-koud kleurcontrast is. 
 
 Schrijf een issue als je een probleem tegenkomt. Dit kan je later bespreken met de studenten die detzelfde opdracht hebben. Als je een beter kleurcontrast voor het probleem hebt kan je dit bespreken tijdens de sprint revie met de opdrachtgever.
 
@@ -79,7 +77,7 @@ Schrijf een issue als je een probleem tegenkomt. Dit kan je later bespreken met 
 
 ## Teksten op plaatjes
 
-Teksten op een plaatje wordt vaak gebruikt in webdesign. Maar je kan je misschien wel voorstellen dat dat niet altijd goed te lezen is omdat de kleurcontrasten onvoldoende zijn.
+Teksten op een plaatje wordt vaak gebruikt in webdesign. Maar je kan je misschien wel voorstellen dat het niet altijd goed te lezen is omdat de kleurcontrasten onvoldoende zijn.
 
 ![](smashing-text-over-images-technique-overlay.jpg)
 *Door het gebruiken van een overlay of semi-transparent gradient is een tekst beter leesbaar.*
@@ -106,7 +104,7 @@ In de richtlijnen zijn 4 principes beschreven:
 In de richtlijnen staat waar je kleurcontrasten aan moeten voldoen voor een goede toegankelijkheid. Hoe hoog of laag een kleurcontrast is kan je zien aan de contrast ratio’s. Daarvoor wordt de voorgrond kleur vergeleken met de achtergrond kleur.
 
 ![](contrast-ratios-priority-levels.png)
-*Een hoog contrast voor normale teksten heeft bijvoorbeeld een contrast ratio van 9:1. Een te laag contrast is bijvoorbeeld 3:1. 
+*Een hoog contrast voor normale teksten heeft bijvoorbeeld een contrast ratio van 9:1. Een te laag contrast is bijvoorbeeld 3:1.*
 
 Voor contrasten worden 3 *levels* onderscheiden, A level: het minimale niveau waar het contrast aan moet voldoen; AA level: een contrast niveau dat voor de meeste gebruikers toegenkelijk is; AAA level: het hoogst niveau, het is toegankelijk voor alle gebruikers.
 
