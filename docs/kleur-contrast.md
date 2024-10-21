@@ -35,7 +35,7 @@ Gebruik in Chrome de Devtools om de kleuren van jouw project te testen voor kleu
 
 ### Bronnen
 
-[Designing for Color Blindness With Chrome DevTools (in Just 4 Clicks)](https://webdesign.tutsplus.com/designing-for-color-blindness-with-chrome-devtools--cms-35827a)
+- [Designing for Color Blindness With Chrome DevTools (in Just 4 Clicks)](https://webdesign.tutsplus.com/designing-for-color-blindness-with-chrome-devtools--cms-35827a)
 
 
 
@@ -71,7 +71,7 @@ Schrijf een issue als je een probleem tegenkomt. Dit kan je later bespreken met 
 
 ### Bronnen
 
-[Integrating Contrast Checks in Your Web Workflow](https://24ways.org/2014/integrating-contrast-checks-in-your-web-workflow/)
+- [Integrating Contrast Checks in Your Web Workflow](https://24ways.org/2014/integrating-contrast-checks-in-your-web-workflow/)
 
 
 
@@ -84,8 +84,12 @@ Teksten op een plaatje worden vaak gebruikt in webdesign. Maar je kan je misschi
 
 ### Aanpak
 
-In het artikel [Designing Accessible Text Over Images: Best Practices, Techniques, And Resources](https://www.smashingmagazine.com/2023/08/designing-accessible-text-over-images-part1/) worden verschillende problemen en oplossingen beschreven voor teksten op plaatjes. Bekijk de 4 oplossingen die in het artikel worden besproken. Bedenk hoe je het effect met CSS kan bereiken en teken een breakdown schets op het whiteboard met jouw CSS oplossing.
+In het artikel “Designing Accessible Text Over Images: Best Practices, Techniques, And Resources” worden verschillende problemen en oplossingen beschreven voor teksten op plaatjes. Bekijk de 4 oplossingen die in het artikel worden besproken. Bedenk hoe je het effect met CSS kan bereiken en teken een breakdown schets op het whiteboard met jouw CSS oplossing.
 
+### Bronnen
+
+- [Designing Accessible Text Over Images: Best Practices, Techniques, And Resources](https://www.smashingmagazine.com/2023/08/designing-accessible-text-over-images-part1/)
+- [Add A Gradient Overlay Using Border-Image @ css-tip.com](https://css-tip.com/gradient-overlay-border-image/)
 
 
 ## Kleurcontrasten testen
@@ -125,7 +129,6 @@ Kleurcontrast kan je testen en beoordelen met behulp van de WCAG richtlijnen.
 - [WCAG Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.1)
 - [The a11project - Color Contrast](https://www.a11yproject.com/checklist/#color-contrast)
 - [Accessible contrast ratios and A-levels explained](https://www.getstark.co/blog/accessible-contrast-ratios-and-a-levels-explained/)
-- [Add A Gradient Overlay Using Border-Image @ css-tip.com](https://css-tip.com/gradient-overlay-border-image/)
 - [contrast-ratio.org](https://contrast-ratio.org/)
 
 <!-- 
