@@ -84,7 +84,7 @@ Teksten op een plaatje worden vaak gebruikt in webdesign. Maar je kan je misschi
 
 ### Opdracht
 
-In het artikel “Designing Accessible Text Over Images: Best Practices, Techniques, And Resources” worden verschillende problemen en oplossingen beschreven voor teksten op plaatjes. Bekijk de 4 oplossingen die in het artikel worden besproken. Bedenk hoe je het effect met CSS kan bereiken en teken een breakdown schets op het whiteboard met jouw CSS oplossing.
+In het artikel “Designing Accessible Text Over Images: Best Practices, Techniques, And Resources” worden verschillende problemen en oplossingen beschreven voor teksten op plaatjes. Bekijk de 5 oplossingen die in het artikel worden besproken. Bedenk hoe je het effect met CSS kan bereiken en teken een breakdown schets op het whiteboard met jouw CSS oplossing.
 
 ### Bronnen
 
