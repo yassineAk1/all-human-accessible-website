@@ -22,7 +22,7 @@ Er worden verschillende workshops aangeboden:
 - [Sprint planning](sprint-planning.md)
 - [User Experience van HTML](user-experience-van-html.md)
 - [Code/Design review toegankelijkheid](code-design-review-toegankelijkheid.md)
-- [Kleur en Contract](kleur-contrast.md)
+- [Kleur en Contrast](kleur-contrast.md)
 - [Sprint Review](sprint-review.md)
 
 
