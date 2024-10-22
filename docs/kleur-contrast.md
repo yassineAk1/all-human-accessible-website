@@ -118,9 +118,7 @@ Voor contrasten worden 3 *levels* onderscheiden:
 
 Kleurcontrast kan je testen en beoordelen met behulp van de WCAG richtlijnen.
 
-### Opdracht
-
-- Installeer de *Colour Contrast Analyser* van TPGI. Je kan de app hier downloaden: https://www.tpgi.com/color-contrast-checker/.
+### Opdracht- Installeer de *Colour Contrast Analyser* van TPGI. Je kan de app hier downloaden: https://www.tpgi.com/color-contrast-checker/.
 - Doorloop stap voor stap de checklist van het A11Y Project over Color Contrast en test je eigen website: https://www.a11yproject.com/checklist/#color-contrast
 - Maak per stap een issue aan met de titel van de check, beschrijf wat je hebt getest en noteer de testresultaten, voeg een screenshot toe, en als je een probleem hebt gevonden noteer dan wat er verbeterd kan worden.
 
