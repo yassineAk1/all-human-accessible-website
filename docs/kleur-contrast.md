@@ -8,7 +8,7 @@ In deze workshop leer je hoe je goede kleurcontrasten kan ontwerpen en testen vo
 
 Je denkt misschien dat iedereen kleuren en contrasten op een zelfde manier ervaart zoals jij. Maar het ervaren van kleuren op een website wordt beïnvloed door omgevingsfactoren en hoe mensen kleuren waarnemen.
 
-Verschillende apparaten laten kleuren op een andere manier zien, een Kindle heeft bijvoorbeeld een zwart-wit scherm. Ook de *display settings* van een scherm zijn van invloed op de kleuren, een scherm kan donker maar ook heel *bright* ingesteld staan, en veranderen gedurende dag. Ook omgevingslicht zoals zonlicht is bepalend, probeer maar eens teksten te lezen op je mobiel als de zon in je scherm schijnt.
+Verschillende apparaten laten kleuren op een andere manier zien, een Kindle heeft bijvoorbeeld een zwart-wit scherm. Ook de *display settings* van een scherm zijn van invloed op de kleuren, een scherm kan donker maar ook heel *bright* ingesteld staan, en veranderen gedurende de dag. Ook omgevingslicht zoals zonlicht is bepalend, probeer maar eens teksten te lezen op je mobiel als de zon in je scherm schijnt.
 
 Naast de omgevingsfactoren kan het natuurlijk ook voorkomen dat je gebruikers kleurenblind of slechtziend zijn.
 
@@ -25,16 +25,17 @@ Een aanzienlijk deel van je bezoekers is kleurenblind en ziet kleuren misschien 
 *De kleuren van de energielabels lopen van rood naar groen. Rood is slecht. Groen is goed.*
 
 ![](energielabels-deuteranopia.png)
-*Voor mensen die kleurenblind zijn zijn de kleuren verwarrend, dezelfde kleuren worden gebruikt voor verschillende energielabels.*
+*Voor mensen die kleurenblind zijn, zijn de kleuren verwarrend, dezelfde kleuren worden gebruikt voor verschillende energielabels.*
 
 ### Opdracht 
-Gebruik in Chrome de Devtools om de kleuren van jouw project te testen voor  kleurenblindheid. Schrijf een issue als je een probleem tegenkomt.
 
-``` Open Chrome Devtools > Click 3 dots > Select Rendering > Emulate vision deficienties```
+Gebruik in Chrome de Devtools om de kleuren van jouw project te testen voor kleurenblindheid. Schrijf een issue als je een probleem tegenkomt.
+
+``` Open Chrome Devtools > Click 3 dots > Select Rendering > Emulate vision deficiencies```
 
 ### Bronnen
-[Designing for Color Blindness With Chrome DevTools (in Just 4 Clicks)](https://webdesign.tutsplus.com/designing-for-color-blindness-with-chrome-devtools--cms-35827a)
 
+- [Designing for Color Blindness With Chrome DevTools (in Just 4 Clicks)](https://webdesign.tutsplus.com/designing-for-color-blindness-with-chrome-devtools--cms-35827a)
 
 
 
@@ -48,52 +49,55 @@ Hoe ontwerp je goede kleurcontrasten?
 
 ![](contrast-light-dark.gif)
 
-De rode en groene kleur aan de linkerkant hebben vergelijkbare helderheid (*lightness*), dit zorgt voor niet genoeg contrast. Door de helderheid van de achtergrond kleur te verminderen kan het contrast worden verbeterd. Als je de kleuren uit het plaatje in grijstinten weergeeft, blijkt dat de versie aan de rechterkant veel effectiever is.
+De rode en groene kleur aan de linkerkant hebben vergelijkbare helderheid (*lightness*), dit zorgt voor niet genoeg contrast. Door de helderheid van de achtergrondkleur te verminderen kan het contrast worden verbeterd. Als je de kleuren uit het plaatje in grijstinten weergeeft, blijkt dat de versie aan de rechterkant veel effectiever is.
 
 ### Complementair kleurcontrast
 
 ![](contrast-complementary.gif)
 
-Effectieve kleurcontrasten zijn complementaire kleuren. Dat zijn de kleuren die tegenover elkaar staat op de kleurencirkel. Het is belangrijk om te onthouden dat het complementair contrast met rode en groene kleuren problemen opleveren voor de meeste kleurenblinden.
+Effectieve kleurcontrasten zijn complementaire kleuren. Dat zijn de kleuren die tegenover elkaar staan op de kleurencirkel. Het is belangrijk om te onthouden dat het complementair contrast met rode en groene kleuren problemen opleveren voor de meeste kleurenblinden.
 
 ### Warm-koud kleurcontrast
 
 ![](contrast-cool-warm.gif)
 
-Stel je een kleurencirkel voor die is verdeeld in koude kleuren zoals blauw, paars en groen, en vergelijk deze met warme kleuren zoals rood, oranje en geel. De gele tekst op de blauwe achtergrond geeft een beter contrast dan gele tekst op een oranje achtergrond. Teksten met een lichte tent van een warme kleur op een achtergond van een donkere tint van een koude kleur zorgt voor een beter contrast dan twee warme kleuren of twee koude kleuren.
+Stel je een kleurencirkel voor die is verdeeld in koude kleuren zoals blauw, paars en groen, en vergelijk deze met warme kleuren zoals rood, oranje en geel. De gele tekst op de blauwe achtergrond geeft een beter contrast dan gele tekst op een oranje achtergrond. Teksten met een lichte tint van een warme kleur op een achtergond van een donkere tint van een koude kleur zorgt voor een beter contrast dan twee warme kleuren of twee koude kleuren.
 
 ### Opdracht 
 
-Bekijk het kleurgebruik in het Figma ontwerp. Vergelijk de gebruikte teksten en kleuren met de kleurencirkel en noteer in het Figma document of het een licht-donker kleurcontrast, complementair kleurcontrast en/of warm-koud kleurcontrast is. 
+Bekijk het kleurgebruik in je Figma ontwerp. Vergelijk de gebruikte teksten en kleuren met de kleurencirkel en noteer in het Figma document of het een licht-donker kleurcontrast, complementair kleurcontrast en/of warm-koud kleurcontrast is. 
 
-Schrijf een issue als je een probleem tegenkomt. Dit kan je later bespreken met de studenten die detzelfde opdracht hebben. Als je een beter kleurcontrast voor het probleem hebt kan je dit bespreken tijdens de sprint revie met de opdrachtgever.
+Schrijf een issue als je een probleem tegenkomt. Dit kan je later bespreken met de studenten die dezelfde opdracht hebben. Als je een beter kleurcontrast voor het probleem hebt, kan je dit bespreken tijdens de Sprint Review met de opdrachtgever.
 
 ### Bronnen
-[Integrating Contrast Checks in Your Web Workflow](https://24ways.org/2014/integrating-contrast-checks-in-your-web-workflow/)
 
-
+- [Integrating Contrast Checks in Your Web Workflow](https://24ways.org/2014/integrating-contrast-checks-in-your-web-workflow/)
 
 
 
 ## Teksten op plaatjes
 
-Teksten op een plaatje wordt vaak gebruikt in webdesign. Maar je kan je misschien wel voorstellen dat het niet altijd goed te lezen is omdat de kleurcontrasten onvoldoende zijn.
+Teksten op een plaatje worden vaak gebruikt in webdesign. Maar je kan je misschien wel voorstellen dat het niet altijd goed te lezen is, omdat de kleurcontrasten onvoldoende zijn.
 
 ![](smashing-text-over-images-technique-overlay.jpg)
 *Door het gebruiken van een overlay of semi-transparent gradient is een tekst beter leesbaar.*
 
-### Aanpak
+### Opdracht
 
-In het artikel [Designing Accessible Text Over Images: Best Practices, Techniques, And Resources](https://www.smashingmagazine.com/2023/08/designing-accessible-text-over-images-part1/) worden verschillende problemen en oplossingen beschreven voor teksten op plaatjes. Bekijk de 4 oplossingen die in het artikel worden besproken. Bedenk hoe je het effect met CSS kan bereiken en teken een breakdown schets op het whiteboard met jouw CSS oplossing.
+In het artikel “Designing Accessible Text Over Images: Best Practices, Techniques, And Resources” worden verschillende problemen en oplossingen beschreven voor teksten op plaatjes. Bekijk de 5 oplossingen die in het artikel worden besproken. Bedenk hoe je het effect met CSS kan bereiken en teken een breakdown schets op het whiteboard met jouw CSS oplossing.
 
+### Bronnen
 
+- [Designing Accessible Text Over Images: Best Practices, Techniques, And Resources](https://www.smashingmagazine.com/2023/08/designing-accessible-text-over-images-part1/)
+- [Add A Gradient Overlay Using Border-Image @ css-tip.com](https://css-tip.com/gradient-overlay-border-image/)
 
 
 ## Kleurcontrasten testen
 
 De Web Accessibility Guidelines (WCAG) zijn richtlijnen van het W3C voor toegankelijkheid. In de  richtlijnen staat beschreven hoe webcontent toegankelijk kan worden gemaakt voor een zo breed mogelijk publiek.
 
-In de richtlijnen zijn 4 principes beschreven: 
+In de richtlijnen zijn 4 principes beschreven:
+
 1. Waarneembaar (perceivable): alle informatie en alle componenten van de gebruikersinterface moeten waarneembaar zijn door de gebruiker.
 2. Bedienbaar (operable): alle componenten van de gebruikersinterface en de navigatie moeten bedienbaar zijn door de gebruiker.
 3. Begrijpelijk (understandable): alle informatie en het gebruik van de interface moet begrijpelijk zijn voor de gebruiker.
@@ -101,27 +105,31 @@ In de richtlijnen zijn 4 principes beschreven:
 
 <!-- Kleur en contrast hoort bij de richtlijn 1.4 Onderscheidbaar (Distinguishable) van het onderdeel Waarneembaar (perceivable).  Kleurcontrast kan je meten en beoordelen met de WCAG standaarden. -->
 
-In de richtlijnen staat waar je kleurcontrasten aan moeten voldoen voor een goede toegankelijkheid. Hoe hoog of laag een kleurcontrast is kan je zien aan de contrast ratio’s. Daarvoor wordt de voorgrond kleur vergeleken met de achtergrond kleur.
+In de richtlijnen staat waar je kleurcontrasten aan moeten voldoen voor een goede toegankelijkheid. Hoe hoog of laag een kleurcontrast is, kan je zien aan de contrast ratio’s. Daarvoor wordt de voorgrondkleur vergeleken met de achtergrondkleur.
 
 ![](contrast-ratios-priority-levels.png)
 *Een hoog contrast voor normale teksten heeft bijvoorbeeld een contrast ratio van 9:1. Een te laag contrast is bijvoorbeeld 3:1.*
 
-Voor contrasten worden 3 *levels* onderscheiden, A level: het minimale niveau waar het contrast aan moet voldoen; AA level: een contrast niveau dat voor de meeste gebruikers toegenkelijk is; AAA level: het hoogst niveau, het is toegankelijk voor alle gebruikers.
+Voor contrasten worden 3 *levels* onderscheiden:
 
-Kleurcontrast kan je testen en beoordelen met behulp de WCAG richtlijnen.
+- A level: het minimale niveau waar het contrast aan moet voldoen
+- AA level: een contrast niveau dat voor de meeste gebruikers toegenkelijk is
+- AAA level: het hoogste niveau, het is toegankelijk voor alle gebruikers
+
+Kleurcontrast kan je testen en beoordelen met behulp van de WCAG richtlijnen.
 
 ### Opdracht
 
 - Installeer de *Colour Contrast Analyser* van TPGI. Je kan de app hier downloaden: https://www.tpgi.com/color-contrast-checker/.
-- Doorloop stap voor stap de checklist van het A11Y PROJECT over Color contrast en test je eigen website: https://www.a11yproject.com/checklist/#color-contrast
-- Maak per stap een issue aan met de titel van de check, beschrijf wat je hebt getest en noteer de testresultaten, voeg een screenshot toe, en als je een probleem hebt gevonden noteer dan wat er verbeterd kan worden. 
+- Doorloop stap voor stap de checklist van het A11Y Project over Color Contrast en test je eigen website: https://www.a11yproject.com/checklist/#color-contrast
+- Maak per stap een issue aan met de titel van de check, beschrijf wat je hebt getest en noteer de testresultaten, voeg een screenshot toe, en als je een probleem hebt gevonden noteer dan wat er verbeterd kan worden.
 
 ### Bronnen
 
-- [WCAg Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.1)
+- [WCAG Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.1)
 - [The a11project - Color Contrast](https://www.a11yproject.com/checklist/#color-contrast)
 - [Accessible contrast ratios and A-levels explained](https://www.getstark.co/blog/accessible-contrast-ratios-and-a-levels-explained/)
-
+- [contrast-ratio.org](https://contrast-ratio.org/)
 
 <!-- 
 Related WCAG success criteria
