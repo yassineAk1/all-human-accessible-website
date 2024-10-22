@@ -23,7 +23,7 @@ Er worden verschillende workshops aangeboden:
 - [User Experience van HTML](user-experience-van-html.md)
 - [Code/Design review toegankelijkheid](code-design-review-toegankelijkheid.md)
 - [Kleur en Contract](kleur-contrast.md)
-- [Sprint Review](sprint-review.md)
+- [Wrap-up](wrap-up.md)
 
 
 ## Definition of done
