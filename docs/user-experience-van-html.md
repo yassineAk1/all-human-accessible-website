@@ -12,7 +12,7 @@ Voordat je kunt bepalen wat goede HTML is, moet je vooral leren wat HTML zoal ka
 
 Vandaag ga je lezen en leren wat verschillende (interactieve) HTML elementen in een browser doen: links, afbeeldingen, labels, headings en details. Studenten die al wat verder zijn, kunnen ook experimenteren met popups.
 
-Open je code editor en maak een blanco HTML pagina in je editor, noem deze `ux.html` en sla deze op in jouw i-love-web repo. Begin met een `<h1>UX in HTML</h1>` en een paragraaf met daarin je favoriete HTML element `<p>Mijn favoriete HTML element is ...</p>`. Schrijf dit ook op het whiteboard, zodat we kunnen beginnen.
+Open je code editor en maak een blanco HTML pagina in je editor, noem deze `ux.html` en sla deze op in jouw i-love-web repo. Begin met een `<h1>UX in HTML</h1>` en een paragraaf met daarin je favoriete HTML element, en voor hoeveel procent je HTML denkt te kennen; `<p>Mijn favoriete HTML element is ... en ik ken HTML voor ...%</p>`. Schrijf dit ook op het whiteboard, zodat we kunnen beginnen.
 
 
 ### Links
