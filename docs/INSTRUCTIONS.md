@@ -30,6 +30,8 @@ Deze opdracht is done als:
 
 - [ ] De website staat op GitHub en heeft een live url
 - [ ] Je hebt gestructureerd gewerkt met behulp van de development-lifecycle en je hebt het proces bijgehouden in jouw Learning Log
-- [ ] Je hebt een Lighthouse test gedaan en gevonden problemen verholpen
-- [ ] Je hebt een serie handmatige tests gedaan en gevonden problemen verholpen
+- [ ] Je hebt een WCAG audit gedaan, de gevonden problemen gedocumenteerd en verholpen
 - [ ] Je hebt feedback gekregen van de opdrachtgever tijdens de Sprint Review en de feedback gedocumenteerd
+
+<!-- - [ ] Je hebt een Lighthouse test gedaan en gevonden problemen verholpen -->
+<!-- - [ ] Je hebt een serie handmatige tests gedaan en gevonden problemen verholpen -->
