@@ -28,11 +28,8 @@ Er worden verschillende workshops aangeboden:
 ## Definition of done
 Deze opdracht is done als:
 
-- [ ] De website staat op GitHub en heeft een live url
-- [ ] Je hebt gestructureerd gewerkt met behulp van issues
-- [ ] Je hebt een WCAG audit gedaan, de gevonden problemen gedocumenteerd en verholpen
-- [ ] Je hebt feedback gekregen van de opdrachtgever tijdens de Sprint Review en de feedback gedocumenteerd
-- [ ] Je hebt je leerproces bijgehouden in jouw Learning Journal
+- [ ] Je hebt een WCAG audit gedaan op de opdracht van de opdrachtgever, de gevonden problemen gedocumenteerd en verholpen
+- [ ] Je hebt feedback gekregen van de opdrachtgever tijdens de Sprint Review en de feedback gedocumenteerd in een issue
 
 <!-- - [ ] Je hebt gestructureerd gewerkt met behulp van de development-lifecycle en je hebt het proces bijgehouden in jouw Learning Log -->
 <!-- - [ ] Je hebt een Lighthouse test gedaan en gevonden problemen verholpen -->
