@@ -30,7 +30,7 @@ Deze opdracht is done als:
 
 - [ ] Je hebt de feedback van de Sprint Review uit sprint 2 van de opdrachtgever verwerkt
 - [ ] Je hebt een WCAG audit gedaan op de opdracht van de opdrachtgever, de gevonden problemen gedocumenteerd en verholpen
-- [ ] Je hebt een color contrast test gedaan en de testersultaten gedocumenteerd in issues 
+- [ ] Je hebt een color contrast test gedaan en de testresultaten gedocumenteerd in issues 
 - [ ] Je hebt feedback gekregen van de opdrachtgever tijdens de Sprint Review en de feedback gedocumenteerd in een issue
 
 <!-- - [ ] Je hebt gestructureerd gewerkt met behulp van de development-lifecycle en je hebt het proces bijgehouden in jouw Learning Log -->
