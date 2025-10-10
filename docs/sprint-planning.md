@@ -33,7 +33,7 @@ Wat kan je deze sprint beter doen?
 Tijdens de sprint planning gaan studenten de Sprint Review bespreken. Hier kan misschien een goede opdracht bij dat ze gaan bedenken hoe ze de opdracht verder gaan aanpakken? Plan van aanpak? (sommige opdrachten zijn best moeilijk, hoe pak je zoiets aan? Welke pagina's ga je eerst doen? Welke daarna?)
 Dan kunnen ze hun aanpak ook bespreken met een docent.
 
-Tijdens de sprint planning van sprint 2 hebben ze een sitemap gemaakt. Zou goed zijn als ze die weer gaan bekijken en bespreken. Misschien nog een keer maken als ze de sprint review bespreken? Want nu hebben ze de opdrachtgever gesproken en veel beter beeld van wat de bedoeling is van de opdracht.
+Tijdens de sprint planning van sprint 2 hebben ze een sitemap gemaakt. Zou goed zijn als ze die weer gaan bekijken en bespreken. -> volgende stap bedenken -> plan voor maken. Want nu hebben ze de opdrachtgever gesproken en veel beter beeld van wat de bedoeling is van de opdracht.
 -->
 
 #### 2. Sprint 3 plannen
