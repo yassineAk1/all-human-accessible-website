@@ -16,18 +16,18 @@ De vorige sprint heb je een website voor een opdrachtgever ontworpen en gemaakt.
 
 Eerst ga je met de studenten die dezelfde opdrachtgever hebben de Sprint Review bespreken, daarna ga je de opdracht van Sprint 3 plannen. 
 
+#### 1. Sprint Review bespreken
+
+1. Bespreek in groepjes van drie (met een andere opdracht) de Sprint Review van de vorige sprint.
+2. Bekijk en bespreek het door jullie gemaakte werk.
+3. Voeg de feedback van de opdrachtgever en nieuwe taken en ideeën toe aan je eigen *project board*.
+
 <!-- 
 Iteratief werken uit sprint 2 evalueren en gebruiken voor de springplanning
 Even terug kijken naar de retro van sprint 2 tijdens de sprint planning van sprint 3.
 Wat kan je deze sprint beter doen?
 -->
 
-
-#### 1. Sprint Review bespreken
-
-1. Bespreek met de studenten die dezelfde opdrachtgever hebben de Sprint Review van de vorige sprint.
-2. Bekijk en bespreek het door jullie gemaakte werk.
-3. Voeg de feedback van de opdrachtgever en nieuwe taken en ideeën toe aan je eigen *project board*.
 
 <!--
 Tijdens de sprint planning gaan studenten de Sprint Review bespreken. Hier kan misschien een goede opdracht bij dat ze gaan bedenken hoe ze de opdracht verder gaan aanpakken? Plan van aanpak? (sommige opdrachten zijn best moeilijk, hoe pak je zoiets aan? Welke pagina's ga je eerst doen? Welke daarna?)
