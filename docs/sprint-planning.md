@@ -18,7 +18,7 @@ Eerst ga je met de studenten die dezelfde opdrachtgever hebben de Sprint Review 
 
 #### 1. Sprint Review bespreken
 
-1. Bespreek in groepjes van drie (met een andere opdracht) de Sprint Review van de vorige sprint.
+1. Bespreek in groepjes van drie (met een andere opdracht + mentor) de Sprint Review van de vorige sprint.
 2. Bekijk en bespreek het door jullie gemaakte werk.
 3. Voeg de feedback van de opdrachtgever en nieuwe taken en ideeën toe aan je eigen *project board*.
 
