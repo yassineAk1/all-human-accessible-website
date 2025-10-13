@@ -9,17 +9,16 @@ Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
 
 ## Doel van deze opdracht
-Je leert hoe je een (gedeelte van een) website toegankelijk kan ontwerpen, bouwen en testen.
+Je leert hoe je (een gedeelte van) een website toegankelijk kan ontwerpen, bouwen en testen.
 
 
 ## Werkwijze
 Deze leertaak wordt behandeld in Sprint 3. 
 
-Bij FDND begin je elke sprint met nieuwe HTML, CSS (en JS) code. Als je in dezelfde code doorwerkt, wordt het vaak een beetje een zooitje en pas je niet toe wat je in de tussentijd hebt geleerd. Begin dus altijd met nieuwe code schrijven.
-
 Er worden verschillende workshops aangeboden:
 
-- [Sprint planning](sprint-planning.md)
+- [Sprint Planning](sprint-planning.md)
+- [WCAG Audit](https://github.com/fdnd-task/wcag-audit/)
 - [User Experience van HTML](user-experience-van-html.md)
 - [Code/Design review toegankelijkheid](code-design-review-toegankelijkheid.md)
 - [Kleur en Contrast](kleur-contrast.md)
@@ -28,7 +27,7 @@ Er worden verschillende workshops aangeboden:
 ## Definition of done
 Deze opdracht is done als:
 
-- [ ] Je hebt de feedback van de Sprint Review uit sprint 2 van de opdrachtgever verwerkt
+- [ ] Je hebt de feedback van de opdrachtgever tijdens de Sprint Review van Sprint 2 verwerkt
 - [ ] Je hebt een WCAG audit gedaan op de opdracht van de opdrachtgever, de gevonden problemen gedocumenteerd en verholpen
 - [ ] Je hebt een color contrast test gedaan en de testresultaten gedocumenteerd in issues 
 - [ ] Je hebt feedback gekregen van de opdrachtgever tijdens de Sprint Review en de feedback gedocumenteerd in een issue
