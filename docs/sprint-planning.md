@@ -61,3 +61,5 @@ Maak hiermee nieuwe issues of items op je Project board aan voor deze sprint. Zo
 💪 Tip: In een Project board kun je die volgorde ook aangeven, mocht je daar al mee willen experimenteren.
 
 Zet een krul door jullie whiteboard als jullie klaar zijn met jullie planning.
+
+Vanochtend gaan we eerst verder met een WCAG audit, daarna kun je beginnen met het oppakken van je issues.
