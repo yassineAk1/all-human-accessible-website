@@ -1,11 +1,278 @@
+* {
+  line-height: 1.4;
+
+}
+
+body {
+  margin: 0rem;
+  padding: 0rem;
+  background-color: #F6F5F5;
+    @media (max-width: 599px) {
+    padding-bottom: 5rem; 
+  }
+}
+
+
+
+header {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  padding: 0.25rem;
+  background-image: url(../assets/strikje.png);
+  background-repeat: no-repeat;
+  background-position: center .5rem;
+}
+
+.logo img {
+  height: 4rem;
+}
+
+.nav-icons {
+  display: flex;
+}
+
+
+
+.filters {
+  box-shadow: .1em .1em 2em rgb(197, 197, 197);
+  margin: 0.1rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(235, 233, 233);
+  border-radius: 1rem;
+  font-size: x-large;
+}
+
+fieldset legend{
+  font-size: 3rem;
+}
+
+.filters input,
+select {
+  border-radius: .5rem;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
+}
+
+.filters,
+select,
+input,
+.search-bar,
+h3,
+h2,
+p,
+a,
+address {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  grid-column: 1 / -1;
+  color: rgb(236, 19, 63);
+}
+
+.gifts {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(17em, 25em));
+  gap: 2em;
+  margin: 2em;
+}
+
+.banner {
+  color: rgb(33, 32, 32);
+  background-color: rgb(255, 0, 0);
+  border-radius: 1rem;
+  padding: 3rem;
+  margin-top: 0;
+  margin-right: -1em;
+  margin-left: -1em;
+  background-image: url(../assets/kerst.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-position: 10% 50%;
+  /* custom: 50% horizontaal, 25% verticaal */
+
+  @media (min-width: 600px) {
+    background-size: contain;
+
+  }
+}
+
+
+.gift-listing {
+  display: grid;
+  justify-items: center;
+  grid-template-areas:
+    "image"
+    "title";
+  border-style: solid;
+  text-decoration: none;
+  border-width: thin;
+  border-color: rgb(171, 171, 171);
+  box-shadow: .1em .1em 2em grey;
+  background-color: white;
+  width: 17rem;
+  height: 20rem;
+  margin-inline: auto;
+  position: relative;
+}
+
+.gift-listing .add-icon {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.gift-listing .saved1-icon,
+.gift-listing .saved2-icon {
+  position: absolute;
+  bottom: 1px;
+  width: 6rem;
+  height: 2rem;
+  object-fit: contain;
+  left: 0rem; 
+}
+
+.gift-listing img:not(.saved1-icon):not(.saved2-icon):not(.add-icon) {
+  grid-area: image;
+  object-fit: fill;
+  width: 16.8rem;
+  height: auto;
+}
+
+.gift-listing h3 {
+  grid-area: title;
+  margin: 1.5em;
+  color: black;
+  margin-top: .5em;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1rem;
+  gap: 0.5rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 100;
+
+  @media (min-width: 600px) {
+    position: relative; 
+  }
+}
+
+
+.search-bar input {
+  border-radius: 2em;
+  padding: 0.75rem 3.5rem 0.75rem 1rem;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.search-bar button {
+  position: absolute;
+  right: 1.2rem;
+  bottom: 0.8rem;
+  background: transparent;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.search-bar button img {
+  width: 2rem;
+  height: 2rem;
+}
+
+fieldset {
   border: 0;
+}
+
+footer {
+  background-image: url('../assets/3.png');
+  background-color: #F9F2D4;
+}
+
+
+.newsletter-form {
+  background-color: #466EBF;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: relative;
+  font-size: 18px;
+
+
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
+
+}
+
+.newsletter-form h3 {
+  padding-left: 1em;
+}
+
+.newsletter-form input {
+  padding: 0.75rem 3.5rem 0.75rem 1rem;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  width: auto;
+}
+
+
+.newsletter-form button {
+  position: absolute;
+  right: 1rem;
+  bottom: .8rem;
+  cursor: pointer;
+  border-radius: 2em;
+
+}
+
+
+.footer-links {
+  padding-left: 1em;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
+}
+
+.legal ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 0%;
+
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
+}
+
+.legal,
+p {
+  padding: .5rem;
 }
