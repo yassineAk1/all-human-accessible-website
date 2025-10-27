@@ -1,5 +1,5 @@
 * {
-  line-height: 1.4;
+  line-height: 1.6;
 
 }
 
@@ -13,36 +13,74 @@ body {
 }
 
 
+h1{
+  display: block;
+  @media (max-width: 1000px) {
+  display: none;
+  }
+}
 
 header {
   display: flex;
   background-color: #ffffff;
   justify-content: space-between;
   padding: 0.25rem;
-  background-image: url(../assets/strikje.png);
+  background-image: url(assets/strikje.png);
   background-repeat: no-repeat;
   background-position: center .5rem;
 }
 
 .logo img {
   height: 4rem;
+
+}
+
+.addlist-icon{
+  width: 10rem;
+    @media (min-width: 1000px) { 
+    width: auto;
+    height: auto;}
+}
+
+
+.nav-icons img{
+  width: 5rem;      
+  height: 5rem;
+     @media (min-width: 1000px) { 
+    width: auto;
+    height: auto;}
 }
 
 .nav-icons {
   display: flex;
 }
 
+.page-layout{
+  @media (min-width: 1000px){
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: start;
+  padding: 2rem;}
+}
 
+.search-bar-text{
+  display: none;
+}
 
 .filters {
+  display: block;
   box-shadow: .1em .1em 2em rgb(197, 197, 197);
-  margin: 0.1rem;
-  display: flex;
   justify-content: center;
   background-color: rgb(235, 233, 233);
   border-radius: 1rem;
-  font-size: x-large;
+  font-size: 1.5rem;
+ 
+  @media (min-width: 1000px){
+    display: none;
+  }
 }
+
 
 fieldset legend{
   font-size: 3rem;
@@ -73,40 +111,23 @@ p,
 a,
 address {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h2 {
-  display: flex;
-  justify-content: center;
-  grid-column: 1 / -1;
-  color: rgb(236, 19, 63);
+  font-size: 1.1rem;
 }
 
 .gifts {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(17em, 25em));
+  grid-template-columns: repeat(auto-fit, minmax(17em, 18em));
   gap: 2em;
   margin: 2em;
-}
 
-.banner {
-  color: rgb(33, 32, 32);
-  background-color: rgb(255, 0, 0);
-  border-radius: 1rem;
-  padding: 3rem;
-  margin-top: 0;
-  margin-right: -1em;
-  margin-left: -1em;
-  background-image: url(../assets/kerst.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-position: 10% 50%;
-  /* custom: 50% horizontaal, 25% verticaal */
-
-  @media (min-width: 600px) {
-    background-size: contain;
-
+  @media (min-width: 768px){
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+    @media (min-width: 1000px){
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
   }
 }
 
@@ -123,8 +144,8 @@ h2 {
   border-color: rgb(171, 171, 171);
   box-shadow: .1em .1em 2em grey;
   background-color: white;
-  width: 17rem;
-  height: 20rem;
+  width: 18rem;
+  height: 23rem;
   margin-inline: auto;
   position: relative;
 }
@@ -147,10 +168,10 @@ h2 {
   left: 0rem; 
 }
 
-.gift-listing img:not(.saved1-icon):not(.saved2-icon):not(.add-icon) {
+.gift-listing .gift-img{
   grid-area: image;
   object-fit: fill;
-  width: 16.8rem;
+  width: 18rem;
   height: auto;
 }
 
@@ -173,8 +194,9 @@ h2 {
   position: fixed;
   z-index: 100;
 
-  @media (min-width: 600px) {
+  @media (min-width: 900px) {
     position: relative; 
+    display: block;
   }
 }
 
@@ -186,6 +208,8 @@ h2 {
   font-size: 1rem;
   width: 100%;
 }
+
+
 
 .search-bar button {
   position: absolute;
@@ -207,57 +231,92 @@ fieldset {
 }
 
 footer {
-  background-image: url('../assets/3.png');
+  background-image: url('assets/3.png');
   background-color: #F9F2D4;
 }
-
 
 .newsletter-form {
   background-color: #466EBF;
   display: flex;
   justify-content: space-evenly;
+  align-items: center; /* Add this */
   flex-direction: column;
-  position: relative;
+  gap: 1rem; /* Add spacing */
+  padding: 1rem; /* Add padding */
   font-size: 18px;
-
 
   @media (min-width: 600px) {
     flex-direction: row;
   }
-
 }
 
-.newsletter-form h3 {
+.newsletter-form h4 {
   padding-left: 1em;
+  margin: 0; /* Remove default margin */
+}
+
+.newsletter-form p {
+  margin: 0; /* Remove default margin */
+}
+
+.newsletter-form > div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: #F6F5F5;
+}
+
+/* Wrapper for input + button */
+.newsletter-form > div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
 }
 
 .newsletter-form input {
   padding: 0.75rem 3.5rem 0.75rem 1rem;
   border: 1px solid #ddd;
+  border-radius: 2em;
   font-size: 1rem;
-  width: auto;
+  flex: 1;
 }
-
 
 .newsletter-form button {
   position: absolute;
-  right: 1rem;
-  bottom: .8rem;
+  right: 0.5rem;
+  width: 2.5rem; /* Set exact size */
+  height: 2.5rem; /* Set exact size */
+  padding: 0; /* Remove padding */
+  border: none;
+  background: none;
   cursor: pointer;
-  border-radius: 2em;
-
+  border-radius: 50%; /* Make it circular */
+  overflow: hidden; /* Clip the image to button bounds */
 }
 
+.newsletter-form button img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 .footer-links {
   padding-left: 1em;
-
-  display: flex;
+  display: grid;
   justify-content: space-evenly;
-  flex-direction: column;
-
+  grid-template-columns: 1fr 1fr;
   @media (min-width: 600px) {
+    display: flex;
     flex-direction: row;
+    
   }
 }
 

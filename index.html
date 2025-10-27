@@ -12,51 +12,54 @@
   <header class="header">
     <a href="index.html" class="logo">
       <picture>
-        <source srcset="assets/full-logo.webp" media="(min-width:600px)">
+        <source srcset="assets/full-logo.webp" media="(min-width:680px)">
         <img src="assets/Group117.svg" alt="milledoni Logo">
       </picture>
     </a>
 
     <nav class="nav-icons">
-      <a href="index.html"> <img src="assets/saved-logo.svg" alt="saved gifts"></a>
-      <a href="index.html"> <img src="assets/profile-logo.svg" alt="profile"></a>
+
+      <a href="index.html">
+        <picture>
+          <source srcset="assets/addlist.svg" media="(min-width:1000px)">
+          <img class="addlist-icon" src="assets/Group 270 (5).svg" alt="saved gifts">
+        </picture>
+      </a>
+
+      <a href="index.html"> <img src="assets/Group 257.svg" alt="profile"></a>
     </nav>
   </header>
 
-  <main>
+  <main class="page-layout">
     <h1>Get inspired by the world of Milledoni</h1>
+
     <form class="filters">
       <fieldset>
         <legend>I'm looking for a gift for...</legend>
 
-        <label>
-          <select name="relation">
-            <option value="">Who is it for</option>
-            <option value="boyfriend">Boyfriend</option>
-            <option value="girlfriend">Girlfriend</option>
-          </select>
-        </label>
+        <label for="relation">Who is it for?</label>
+        <select id="relation" name="relation">
+          <option value="">Select one</option>
+          <option value="boyfriend">Boyfriend</option>
+          <option value="girlfriend">Girlfriend</option>
+        </select>
 
 
-        <label>
-          <span class="visually-hidden">Age</span>
-          <input type="number" name="age" placeholder="Age">
-        </label>
+        <label for="age">Age</label>
+        <input id="age" type="number" name="age" placeholder="e.g. 25">
 
-        <label>
-          <select name="occasion">
-            <option value="">For which occasion</option>
-            <option value="birthday">Birthday</option>
-            <option value="Anniversary">Anniversary</option>
-          </select>
-        </label>
+        <label for="occasion">For which occasion?</label>
+        <select id="occasion" name="occasion">
+          <option value="">Select one</option>
+          <option value="birthday">Birthday</option>
+          <option value="anniversary">Anniversary</option>
+        </select>
 
       </fieldset>
     </form>
 
     <section class="gifts">
-      <h2 class="banner"></h2>
-
+      <h2 class="search-bar-text">I'm looking for a gift for...</h2>
 
       <a href="#" class="gift-listing">
         <h3>Weekend Trip to the forest</h3>
@@ -117,19 +120,34 @@
 
   </main>
 
-<footer aria-label="Website footer">
+  <footer>
 
-    <form class="newsletter-form">
-      <h4>Get gift inspiration in your inbox!</h4>
-      <p>Subscribe to receive monthly gift ideas</p>
+<section>
+<form class="newsletter-form" aria-label="Newsletter subscription">
+  <div>
+    <h4>Get gift inspiration in your inbox!</h4>
+    <p id="newsletter-desc">Subscribe to receive monthly gift ideas</p>
+  </div>
+  
+  <div>
+    <label for="email" class="visually-hidden">Email address</label>
+    <input 
+      type="email" 
+      id="email" 
+      name="email" 
+      placeholder="Enter your email address" 
+      required 
+      aria-describedby="newsletter-desc"
+      autocomplete="email">
+    <button type="submit">
+      <img src="assets/subicon.svg" alt="Subscribe">
+    </button>
+  </div>
+</form>
+</section>
 
-      <label for="email" class="visually-hidden">Email address</label>
-      <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-      <button type="submit">➔</button>
-    </form>
-
-    <nav class="footer-links">
-      <div class="footer-col">
+    <nav class="footer-links" aria-label="Footer navigation">
+      <section>
         <h4>Gifts</h4>
         <ul>
           <li><a href="#">Landing Page</a></li>
@@ -138,9 +156,9 @@
           <li><a href="#">Contact</a></li>
           <li><a href="#">Integrations</a></li>
         </ul>
-      </div>
+      </section>
 
-      <div class="footer-col">
+      <section>
         <h4>Join us</h4>
         <ul>
           <li><a href="#">Academy</a></li>
@@ -150,9 +168,9 @@
           <li><a href="#">Developers</a></li>
           <li><a href="#">Support</a></li>
         </ul>
-      </div>
+      </section>
 
-      <div class="footer-col">
+      <section>
         <h4>Company</h4>
         <ul>
           <li><a href="#">About Us</a></li>
@@ -161,9 +179,9 @@
           <li><a href="#">Teams</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
-      </div>
+      </section>
 
-      <div class="footer-col contact">
+      <section>
         <h4>Contact Us</h4>
         <address>
           700 Chevy Chase, Maryland 20815<br>
@@ -174,10 +192,10 @@
           <li><a href="#">Facebook</a></li>
           <li><a href="#">Instagram</a></li>
         </ul>
-      </div>
+      </section>
     </nav>
 
-    <div class="legal">
+    <section class="legal" aria-label="Legal links">
       <ul>
         <li><a href="#">Privacy Policy</a></li>
         <li><a href="#">Terms of Use</a></li>
@@ -186,7 +204,8 @@
         <li><a href="#">Site Map</a></li>
       </ul>
       <p>© 2024 All Rights Reserved</p>
-    </div>
+    </section>
+
 
   </footer>
 </body>
