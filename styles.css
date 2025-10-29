@@ -91,6 +91,8 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     align-items: start;
+        background: linear-gradient(to right, #ffffff 0%, #ffffff 33.33%, #F6F5F5 33.33%, #F6F5F5 100%);
+
   }
 }
 
@@ -301,7 +303,7 @@ h1 {
   @media (min-width: 1000px) {
     grid-column: 1;
     grid-row: 1;
-    padding-top: 25rem;
+    padding-top: 20rem;
   }
 }
 
