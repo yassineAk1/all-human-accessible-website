@@ -10,9 +10,10 @@
 
 <body>
   <header class="header">
+    <a href="#main" class="skip">Skip to main content</a>
     <a href="index.html" class="logo">
       <picture>
-        <source srcset="assets/full-logo.webp" media="(min-width:770px)">
+        <source srcset="assets/fullLogo.svg" media="(min-width:770px)">
         <img src="assets/Group117.svg" alt="milledoni Logo">
       </picture>
     </a>
@@ -27,11 +28,14 @@
       </a>
 
       <a href="index.html"> <img src="assets/Group 257.svg" alt="profile"></a>
+
     </nav>
+
+
   </header>
 
-  <main class="page-layout">
-    
+  <main id="main" class="page-layout">
+
 
     <form class="filters">
       <fieldset>
@@ -46,7 +50,7 @@
 
 
         <label for="age">Age</label>
-        <input id="age" type="number" name="age" placeholder="e.g. 25">
+        <input id="age" type="number" name="age" placeholder="e.g. 25" min="0" max="120">
 
         <label for="occasion">For which occasion?</label>
         <select id="occasion" name="occasion">
@@ -63,15 +67,16 @@
       <h2 class="search-bar-text">I'm looking for a gift for...</h2>
 
       <a href="#" class="gift-listing">
-        <h3>Weekend Trip to the forest</h3>
+
         <img class="gift-img" src="assets/gift1.svg" alt="cozy cabin in the woods">
+        Weekend Trip to the forest
         <img class="add-icon" src="assets/addicon.png" alt="add to list">
         <img class="saved1-icon" src="assets/saved1.png" alt="amount of saves">
 
       </a>
 
       <a href="#" class="gift-listing">
-        <h3>Magic Lamp</h3>
+        Magic Lamp
         <img class="gift-img" src="assets/gift2.svg" alt="lamp that floats in a hand">
         <img class="add-icon" src="assets/addicon.png" alt="add to list">
         <img class="saved2-icon" src="assets/saved2.png" alt="amount of saves">
@@ -79,14 +84,14 @@
       </a>
 
       <a href="#" class="gift-listing">
-        <h3>Bike Ride through the woods</h3>
+        Bike Ride through the woods
         <img class="gift-img" src="assets/gift3.svg" alt="bicycle ride in the woods">
         <img class="add-icon" src="assets/addicon.png" alt="add to list">
         <img class="saved1-icon" src="assets/saved1.png" alt="amount of saves">
       </a>
 
       <a href="#" class="gift-listing">
-        <h3>Snow ride with dogs</h3>
+        Snow ride with dogs
         <img class="gift-img" src="assets/gift4.svg" alt="dogs pulling a sled in the snow">
         <img class="add-icon" src="assets/addicon.png" alt="add to list">
         <img class="saved2-icon" src="assets/saved2.png" alt="amount of saves">
@@ -94,7 +99,7 @@
       </a>
 
       <a href="#" class="gift-listing">
-        <h3>Candle</h3>
+        Candle
         <img class="gift-img" src="assets/gift5.svg" alt="yellow candle smelling like old books">
         <img class="add-icon" src="assets/addicon.png" alt="add to list">
         <img class="saved1-icon" src="assets/saved1.png" alt="amount of saves">
@@ -102,7 +107,7 @@
       </a>
 
       <a href="#" class="gift-listing">
-        <h3>Books</h3>
+        Books
         <img class="gift-img" src="assets/gift8.svg" alt="a pink and gray note book">
         <img class="add-icon" src="assets/addicon.png" alt="add to list">
         <img class="saved2-icon" src="assets/saved2.png" alt="amount of saves">
@@ -111,11 +116,17 @@
     </section>
 
     <form class="search-bar">
-      <label for="search-input" class="visually-hidden">chat bot</label>
-      <input type="search" id="search-input" name="q" placeholder="Hello... ">
-      <button type="submit" aria-label="Submit your search">
-        <img src="assets/search-logo.svg" alt="search bar icon">
-      </button>
+      <div class="heading-search">Im looking for a gift for... </div>
+      <div class="search-input-wrapper">
+        <label for="search-input" class="visually-hidden">chat bot</label>
+        <input type="search" id="search-input" name="q" placeholder="I search a gift for a...">
+        <button type="submit" aria-label="Submit your search">
+          <img src="assets/istockphoto-1333838449-612x612.jpg" alt="search bar icon">
+        </button>
+      </div>
+      <div class="community">
+        <img src="assets/Group 604.svg" alt="join our community of spotters">
+      </div>
     </form>
 
 
@@ -123,33 +134,32 @@
 
   <footer>
 
-<section>
-<form class="newsletter-form" aria-label="Newsletter subscription">
-  <div>
-    <h4>Get gift inspiration in your inbox!</h4>
-    <p id="newsletter-desc">Subscribe to receive monthly gift ideas</p>
-  </div>
-  
-  <div>
-    <label for="email" class="visually-hidden">Email address</label>
-    <input 
-      type="email" 
-      id="email" 
-      name="email" 
-      placeholder="Enter your email address" 
-      required 
-      aria-describedby="newsletter-desc"
-      autocomplete="email">
-    <button type="submit">
-      <img src="assets/subicon.svg" alt="Subscribe">
-    </button>
-  </div>
-</form>
-</section>
+    <section>
+      <form class="newsletter-form" aria-label="Newsletter subscription">
+        <div>
+          <h2>Get gift inspiration in your inbox!</h2>
+          <p id="newsletter-desc">Subscribe to receive monthly gift ideas</p>
+        </div>
+
+        <div>
+          <label for="email" class="visually-hidden">Email address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required
+            aria-describedby="newsletter-desc" autocomplete="email">
+          <button type="submit">
+            <img src="assets/subicon.svg" alt="Subscribe">
+          </button>
+        </div>
+      </form>
+    </section>
 
     <nav class="footer-links" aria-label="Footer navigation">
+
+<div class="footer-logo-wrapper">
+  <img class="logo-footer" src="assets/fullLogo.svg" alt="milledoni logo">
+</div>
+
       <section>
-        <h4>Gifts</h4>
+        <h3>Gifts</h3>
         <ul>
           <li><a href="#">Landing Page</a></li>
           <li><a href="#">Popup Builder</a></li>
@@ -160,7 +170,7 @@
       </section>
 
       <section>
-        <h4>Join us</h4>
+        <h3>Join us</h3>
         <ul>
           <li><a href="#">Academy</a></li>
           <li><a href="#">Blog</a></li>
@@ -172,7 +182,7 @@
       </section>
 
       <section>
-        <h4>Company</h4>
+        <h3>Company</h3>
         <ul>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Careers</a></li>
@@ -183,7 +193,7 @@
       </section>
 
       <section>
-        <h4>Contact Us</h4>
+        <h3>Contact Us</h3>
         <address>
           700 Chevy Chase, Maryland 20815<br>
           <a href="mailto:milledoni@gmail.com">milledoni@gmail.com</a>
@@ -204,7 +214,7 @@
         <li><a href="#">Legal</a></li>
         <li><a href="#">Site Map</a></li>
       </ul>
-      <p>© 2024 All Rights Reserved</p>
+      <p>© 2025 All Rights Reserved</p>
     </section>
 
 
