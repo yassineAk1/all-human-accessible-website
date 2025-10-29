@@ -188,7 +188,9 @@ h1 {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: grid;
+  font-weight: bold;
   grid-template-rows: 1fr 5.5rem;
+  gap: 1rem;
   justify-items: center;
   grid-template-areas:
     "image"
@@ -228,14 +230,6 @@ h1 {
   width: 18rem;
   height: 100%;
 }
-
-.gift-listing h3 {
-  grid-area: title;
-  margin: 1.5em;
-  color: black;
-  margin-top: .5em;
-}
-
 
 .heading-search {
 
