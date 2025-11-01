@@ -59,6 +59,6 @@ vergelijking: links oud → rechts nieuw
 
 
 ## Bronnen
-
+https://www.a11yproject.com/checklist/#color-contrast
 ## Licentie
 This project is licensed under the terms of the [MIT license](./LICENSE).
