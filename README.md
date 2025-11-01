@@ -31,24 +31,30 @@ Er is gewerkt aan:
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-de grootste veranderingen voor mobile links oud nieuw recht
+Belangrijkste veranderingen voor mobiel
+
+vergelijking: links oud → rechts nieuw
 <img width="804" height="565" alt="image" src="https://github.com/user-attachments/assets/da3d04b2-ba31-471e-83df-c0ff2e6ad971" />
 
-1 de grootte van aangepast van het strikje volgens de feedback van de PO
-2 zichtbare labels toegevoegd om de toegankelijkheid te verbeeteren
-nieuwe code :
+1 Grootte van het strikje aangepast volgens de feedback van de PO.   
+2 zichtbare labels toegevoegd om de toegankelijkheid te verbeteren
+nieuwe code:
 https://github.com/yassineAk1/all-human-accessible-website/blob/65e0b44877017e4db47e141cf2e67d728aa2e641/index.html#L40-L63   
 
-oude code:
+oude code:   
 https://github.com/yassineAk1/the-client-website/blob/e4c4c8c066602eeb3390a36db9dec7ce3f4d7f93/index.html#L27-L56  
 
-3 banner om mobile verwijderd om de eerste gift item beter te zien volgens de feedback van de po 
-4 zoekbalk tekst en style aangepast om duidelijker te maken dat het ook een chat bot is ook namens de feedback van de po
+3 Banner verwijderd op mobiel, zodat het eerste cadeau-item beter zichtbaar is (volgens PO-feedback).   
+4 Zoekbalktekst en styling aangepast om duidelijker te maken dat het ook een chat-bot is, gebaseerd op PO-feedback.   
 
+
+Belangrijkste veranderingen voor desktop 
+
+vergelijking: links oud → rechts nieuw
 <img width="1395" height="656" alt="image" src="https://github.com/user-attachments/assets/ddbe3a84-e455-43da-8e5e-c1d5d1d60a7e" />
-1
-2
-3
+1 Filters verwijderd op desktop, zodat het ontwerp volgt waarin de zoekbalk de filterfunctie overneemt.
+2 Gift-sectie volledig gestyled volgens het design.
+3 Footer aangepast en gestyled om beter aan te sluiten bij het design.
 
 
 ## Bronnen
